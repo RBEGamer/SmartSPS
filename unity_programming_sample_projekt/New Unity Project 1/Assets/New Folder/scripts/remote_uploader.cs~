@@ -23,17 +23,14 @@ public class remote_uploader : MonoBehaviour {
 
 	public  List<node> nodes;
 
-	private List<node_database_information> db_nodes_data = new List<node_database_information>();
+	//private List<node_database_information> db_nodes_data = new List<node_database_information>();
 	public void start_upload(){
 		string uploadid = System.DateTime.Now.ToLongTimeString();
 		//Debug.Log("upload id:" + uploadid);
 		click_col_blocker.SetActive(true);
-		db_nodes_data.Clear();
-
+		//db_nodes_data.Clear();
 		string lol = "";
 		//CLEAR DB
-	
-
 		foreach (node item in nodes) {
 			node_database_information tmp = new node_database_information();
 			tmp.node_id = item.node_id;
@@ -42,7 +39,7 @@ public class remote_uploader : MonoBehaviour {
 			tmp.node_parameters = "";
 			tmp.NSI = item.NSI;
 			foreach (GameObject np in item.parameters) {
-				tmp.node_parameters += np.GetComponent<Text>().text + "-";
+				tmp.node_parameters += np.GetComponent<Text>().text + trenner;
 			}
 			tmp.node_connections = "";
 			foreach (GameObject nc in item.node_connections) {
@@ -53,18 +50,14 @@ public class remote_uploader : MonoBehaviour {
 						if( con.GetComponent<node_conection>().connection_destination_input_id == conid){
 							int cpos = con.GetComponent<node_conection>().connection_position;
 							int cnid = con.GetComponent<node_conection>().associated_node;
-							string tmp_node = cnid.ToString() + "+" + cpos.ToString();
+							string tmp_node = cnid.ToString() + node_con_trenner + cpos.ToString();
 							//Debug.Log(tmp_node);
-							tmp.node_connections += tmp_node + "-";
+							tmp.node_connections += tmp_node + trenner;
 						}
 					}
 				}
 			}
-
 			WWWForm wwwform = new WWWForm();
-		
-
-
 			System.Text.Encoding encoding = new System.Text.UTF8Encoding();
 			Hashtable postHeader =  new Hashtable();
 			postHeader.Add("Content-Type", "text/json");
@@ -77,14 +70,31 @@ public class remote_uploader : MonoBehaviour {
 			wwwform.AddField("nparam", tmp.node_parameters);
 			wwwform.AddField("ncon", tmp.node_connections );
 			wwwform.AddField("nsi", tmp.NSI);
-
 			WWW www = new WWW ("http://h2385854.stratoserver.net/smartsps/upload_node.php",wwwform);
 			StartCoroutine (WaitForRequest (www));
-
 			Debug.Log(wwwform);
 			//GET(request_url);
 			//db_nodes_data.Add(tmp);
 		}
+		click_col_blocker.SetActive(false);
+	}
+
+
+
+
+	public void start_load(){
+		click_col_blocker.SetActive(true);
+		foreach (node item in nodes) {
+			Destroy(item.gameObject);
+		}
+		nodes.Clear();
+
+		//LOAD all nodes to a node_database_information
+		//instanziate them
+
+
+
+
 		click_col_blocker.SetActive(false);
 	}
 	// Update is called once per frame
