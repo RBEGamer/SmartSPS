@@ -1,0 +1,132 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class camera_movement : MonoBehaviour {
+	public Transform rotation_center;
+	private float camera_height;
+	private float camera_z;
+	public float camera_zoom; //von  0-100
+	public float camera_max_height = 7.4f; //start height of the camera
+	public float camera_min_height = 0.4f;
+	public float steigungswinkel_grad = -45.0f;
+	public bool zoom_lock_at_100;
+	public bool enable_mouse_movement;
+	public bool invert_input;
+	public bool debug_unity_remote_app;
+	private int intert_input_value;
+	public float camera_max_zoom = 100.0f;
+	public float camera_min_zoom = 0.0f;
+	public float zoom_speed_multiplier_pc_mouse = 30.0f;
+	public float zoom_speed_multiplier_pc_keyboard = 4.0f;
+	public float zoom_speed_multiplier_mobile = 1.0f;
+	public float camera_movement_speed_pc = 5.0f;
+	public float camera_movement_speed_mobile = 3.0f;
+	public Vector3 initial_camera_position;
+	private Vector3 camera_position_offset;
+	public int screen_boarder_to_move = 10;
+	private Vector2 current_mouse_pos;
+	//public float camera_target_rotation;
+	
+	// Use this for initialization
+	void Start () {
+		camera_height = camera_max_height;
+		camera_z = 0;
+		camera_zoom = camera_max_zoom/2;
+		//steigungswinkel_rad = steigungswinkel_grad*0.017453292519943;
+		//this.transform.rotation = Quaternion.AngleAxis(-steigungswinkel_grad, Vector3.right);
+		this.transform.rotation = Quaternion.AngleAxis(steigungswinkel_grad, Vector3.right);
+		camera_position_offset = initial_camera_position;
+	}
+	
+	// Update is called once per frame
+	void FixedUpdate () {
+		
+		//invert_input ?
+		if(invert_input){intert_input_value = -1;}else{intert_input_value = 1;}
+		
+		
+		if(Application.isEditor || !Application.isMobilePlatform){
+			
+			//zoom by mousewheel
+			camera_zoom += Input.GetAxis("Mouse ScrollWheel")*zoom_speed_multiplier_pc_mouse* Time.deltaTime;
+			//zoom by keyboard
+			if (Input.GetKey (KeyCode.Plus)){camera_zoom -= 1*zoom_speed_multiplier_pc_keyboard* Time.deltaTime;}
+			if (Input.GetKey (KeyCode.Minus)){camera_zoom += 1*zoom_speed_multiplier_pc_keyboard* Time.deltaTime;}
+			//camera_movement by keyboard
+			if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)){camera_position_offset += new Vector3(1*camera_movement_speed_pc*intert_input_value,0,0)* Time.deltaTime;}
+			if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)){camera_position_offset += new Vector3(-1*camera_movement_speed_pc*intert_input_value,0,0)* Time.deltaTime;}
+			if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W)){camera_position_offset += new Vector3(0,1*camera_movement_speed_pc*intert_input_value,0)* Time.deltaTime;}
+			if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)){camera_position_offset += new Vector3(0,-1*camera_movement_speed_pc*intert_input_value,0)* Time.deltaTime;}
+			//camera movement by mouse
+			if(enable_mouse_movement){
+				current_mouse_pos = Input.mousePosition;//get mouse position
+				if(current_mouse_pos.x < screen_boarder_to_move){camera_position_offset += new Vector3(-1*camera_movement_speed_pc*intert_input_value,0,0)* Time.deltaTime;}//links
+				if(current_mouse_pos.x > Screen.width - screen_boarder_to_move){camera_position_offset += new Vector3(1*camera_movement_speed_pc*intert_input_value,0,0)* Time.deltaTime;}
+				if(current_mouse_pos.y < screen_boarder_to_move){camera_position_offset += new Vector3(0,-1*camera_movement_speed_pc*intert_input_value,0)* Time.deltaTime;}
+				if(current_mouse_pos.y > Screen.height - screen_boarder_to_move){camera_position_offset += new Vector3(0,1*camera_movement_speed_pc*intert_input_value,1)* Time.deltaTime;}
+			}
+			
+			//
+			
+		}
+		
+		if(Application.isMobilePlatform || debug_unity_remote_app || Application.isEditor){
+			
+			Touch[] touches = Input.touches;
+			if(touches.Length >0){
+				//move singel toche
+				if(touches.Length == 1){
+					if(touches[0].phase == TouchPhase.Moved){
+						Vector2 tmp_delta = touches[0].deltaPosition;
+						float pos_x = tmp_delta.x*Time.deltaTime*-intert_input_value*camera_movement_speed_mobile;
+						float pos_y = tmp_delta.y*Time.deltaTime*-intert_input_value*camera_movement_speed_mobile;
+						camera_position_offset += new Vector3(pos_x,0,pos_y);
+					}
+				}// t == 1
+				//zoom double touche
+				if(touches.Length == 2){
+					Touch touch_finger_1 = touches[0];
+					Touch touch_finger_2 = touches[1];
+					Vector2 delta_touch_finger_1 = touch_finger_1.position - touch_finger_1.deltaPosition;
+					Vector2 delta_touch_finger_2 = touch_finger_2.position - touch_finger_2.deltaPosition;
+					float mag_prev_touch = (delta_touch_finger_1 - delta_touch_finger_2).magnitude;
+					float mag_delta_touch = (touch_finger_1.position - touch_finger_2.position).magnitude;
+					float delta_mag = mag_delta_touch - mag_prev_touch;
+					camera_zoom+=zoom_speed_multiplier_mobile*delta_mag*-intert_input_value;
+				}// t == 1
+				
+				
+				
+				
+			}//ende t >0
+			
+			
+			
+			
+		}
+		
+		
+		//gegen  tauschenMathf.Clamp
+		if(camera_zoom > camera_max_zoom && zoom_lock_at_100){camera_zoom = camera_max_zoom;}
+		if(camera_zoom < camera_min_zoom){camera_zoom = camera_min_zoom;}
+		
+
+		this.GetComponent<Camera>().orthographicSize = camera_zoom;
+	//	camera_height = camera_min_height+((camera_max_height/100)*camera_zoom);
+	//	if(camera_height <camera_min_height){camera_height = camera_min_height;}
+	//	//wenn camera min heigt errreicht camera_
+	//	camera_z = Mathf.Tan(Mathf.Rad2Deg*steigungswinkel_grad)*-camera_height + camera_max_height;
+	this.transform.position =  new Vector3(camera_position_offset.x, camera_position_offset.y,camera_position_offset.z);
+		
+		
+		
+		
+		
+		
+		//camera_height = camera_min_height+((camera_max_height/100)*0);
+		//camera_z = Mathf.Tan(Mathf.Rad2Deg*steigungswinkel_grad)*-camera_height + camera_max_height;
+		//rotation_center.transform.position = new Vector3(camera_position_offset.x, camera_height+camera_position_offset.y,-camera_z+camera_position_offset.z);
+		//this.transform.rotation = Quaternion.AngleAxis(steigungswinkel_grad, Vector3.right);
+		//rotation_center.transform.rotation = Quaternion.AngleAxis(camera_target_rotation,Vector3.up);
+	}
+}

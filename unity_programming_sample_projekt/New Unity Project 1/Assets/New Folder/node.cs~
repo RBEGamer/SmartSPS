@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+public class node : MonoBehaviour {
+
+	public List<GameObject> node_connections;
+	public int node_id = -1;
+	// Use this for initialization
+	void Start () {
+		node_id = id_creator.get_node_id();//get unique id
+		foreach (GameObject n in node_connections) {
+			n.GetComponent<node_conection>().associated_node = node_id; //assign all connections on this node the node id
+		}
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
