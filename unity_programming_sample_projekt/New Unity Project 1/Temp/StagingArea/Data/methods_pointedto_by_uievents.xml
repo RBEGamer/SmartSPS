@@ -1,0 +1,65 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="constant_bool_value">
+			<method name="toogle"/>
+		</type>
+		<type fullname="input_connector">
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_remove_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+			<method name="toggle_add_node"/>
+		</type>
+		<type fullname="toolbar_toggle">
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="close_bar"/>
+			<method name="toggle"/>
+			<method name="close_bar"/>
+		</type>
+		<type fullname="remote_uploader">
+			<method name="start_load"/>
+			<method name="start_upload"/>
+		</type>
+	</assembly>
+</linker>
