@@ -125,6 +125,7 @@ public class remote_uploader : MonoBehaviour
 
 
 //		StringReader textreader = new StringReader (www.text);
+		int highes_node_id = 0;
 		XmlReader xml_reader = new XmlTextReader ("http://h2385854.stratoserver.net/smartsps/get_schematic.php?schid=" + (SLOT_FIELD.GetComponent<Dropdown> ().value + 1).ToString ());
 		List<node_database_information> ndi = new List<node_database_information> ();
 		while (xml_reader.Read()) {
@@ -132,6 +133,7 @@ public class remote_uploader : MonoBehaviour
 				// get attributes from npc tag
 				node_database_information tmp = new node_database_information ();
 				tmp.node_id = int.Parse (xml_reader.GetAttribute ("nid"));
+				if(tmp.node_id > highes_node_id){highes_node_id = tmp.node_id;}
 				tmp.NSI = xml_reader.GetAttribute ("nsi");
 				string pos = xml_reader.GetAttribute ("npos");
 				tmp.pos_x = float.Parse (pos.Split (',') [0]);
@@ -144,6 +146,7 @@ public class remote_uploader : MonoBehaviour
 		}
 
 		//Debug.Log (ndi.Count + " Nodes loaded");
+		id_creator.node_id_count = highes_node_id+1;
 		//instanziate them
 		for (int j = 0; j < ndi.Count; j++) {
 			for (int i = 0; i < input_manager.GetComponent<input_connector>().nodes.Length; i++) {
