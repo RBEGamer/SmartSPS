@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t660;
+struct ArrayList_t695;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.IntervalCollection
-struct  IntervalCollection_t949  : public Object_t
+struct  IntervalCollection_t1202  : public Object_t
 {
 	// System.Collections.ArrayList System.Text.RegularExpressions.IntervalCollection::intervals
-	ArrayList_t660 * ___intervals_0;
+	ArrayList_t695 * ___intervals_0;
 };

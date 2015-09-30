@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.Int32>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_2.h"
 // UnityEngine.UI.Dropdown/DropdownEvent
-struct  DropdownEvent_t142  : public UnityEvent_1_t143
+struct  DropdownEvent_t148  : public UnityEvent_1_t149
 {
 };

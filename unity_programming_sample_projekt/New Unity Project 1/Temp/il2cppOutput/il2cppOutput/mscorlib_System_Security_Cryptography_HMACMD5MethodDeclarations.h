@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.HMACMD5
-struct HMACMD5_t1446;
+struct HMACMD5_t1701;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 
 // System.Void System.Security.Cryptography.HMACMD5::.ctor()
-extern "C" void HMACMD5__ctor_m8603 (HMACMD5_t1446 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACMD5__ctor_m10267 (HMACMD5_t1701 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Security.Cryptography.HMACMD5::.ctor(System.Byte[])
-extern "C" void HMACMD5__ctor_m8604 (HMACMD5_t1446 * __this, ByteU5BU5D_t441* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HMACMD5__ctor_m10268 (HMACMD5_t1701 * __this, ByteU5BU5D_t444* ___key, const MethodInfo* method) IL2CPP_METHOD_ATTR;

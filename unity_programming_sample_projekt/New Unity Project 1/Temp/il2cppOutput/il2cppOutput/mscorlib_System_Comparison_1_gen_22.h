@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.StencilMaterial/MatEntry
-struct MatEntry_t235;
+// UnityEngine.CanvasGroup
+struct CanvasGroup_t338;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Comparison_1_t1965  : public MulticastDelegate_t185
+// System.Comparison`1<UnityEngine.CanvasGroup>
+struct  Comparison_1_t2218  : public MulticastDelegate_t190
 {
 };

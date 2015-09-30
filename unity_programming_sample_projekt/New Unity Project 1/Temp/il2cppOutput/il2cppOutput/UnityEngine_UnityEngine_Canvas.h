@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Canvas/WillRenderCanvases
-struct WillRenderCanvases_t333;
+struct WillRenderCanvases_t336;
 // UnityEngine.Behaviour
 #include "UnityEngine_UnityEngine_Behaviour.h"
 // UnityEngine.Canvas
-struct  Canvas_t155  : public Behaviour_t380
+struct  Canvas_t160  : public Behaviour_t383
 {
 };
-struct Canvas_t155_StaticFields{
+struct Canvas_t160_StaticFields{
 	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::willRenderCanvases
-	WillRenderCanvases_t333 * ___willRenderCanvases_2;
+	WillRenderCanvases_t336 * ___willRenderCanvases_2;
 };

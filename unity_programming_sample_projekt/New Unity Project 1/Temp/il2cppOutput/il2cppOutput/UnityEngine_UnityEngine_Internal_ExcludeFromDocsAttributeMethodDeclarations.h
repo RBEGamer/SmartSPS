@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Internal.ExcludeFromDocsAttribute
-struct ExcludeFromDocsAttribute_t564;
+struct ExcludeFromDocsAttribute_t567;
 
 // System.Void UnityEngine.Internal.ExcludeFromDocsAttribute::.ctor()
-extern "C" void ExcludeFromDocsAttribute__ctor_m3043 (ExcludeFromDocsAttribute_t564 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExcludeFromDocsAttribute__ctor_m3055 (ExcludeFromDocsAttribute_t567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

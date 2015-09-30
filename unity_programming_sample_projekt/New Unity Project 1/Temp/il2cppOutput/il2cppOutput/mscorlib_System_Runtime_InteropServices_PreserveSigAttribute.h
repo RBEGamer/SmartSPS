@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.PreserveSigAttribute
-struct  PreserveSigAttribute_t1300  : public Attribute_t434
+struct  PreserveSigAttribute_t1557  : public Attribute_t437
 {
 };

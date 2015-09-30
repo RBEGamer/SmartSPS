@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.CullingGroupEvent
-struct  CullingGroupEvent_t420 
+struct  CullingGroupEvent_t423 
 {
 	// System.Int32 UnityEngine.CullingGroupEvent::m_Index
 	int32_t ___m_Index_0;

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Math.BigInteger
-struct BigInteger_t653;
+struct BigInteger_t826;
 // Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler
-struct KeyGeneratedEventHandler_t677;
+struct KeyGeneratedEventHandler_t849;
 // System.Security.Cryptography.RSA
 #include "mscorlib_System_Security_Cryptography_RSA.h"
 // Mono.Security.Cryptography.RSAManaged
-struct  RSAManaged_t679  : public RSA_t680
+struct  RSAManaged_t851  : public RSA_t852
 {
 	// System.Boolean Mono.Security.Cryptography.RSAManaged::isCRTpossible
 	bool ___isCRTpossible_2;
@@ -18,21 +18,21 @@ struct  RSAManaged_t679  : public RSA_t680
 	// System.Boolean Mono.Security.Cryptography.RSAManaged::m_disposed
 	bool ___m_disposed_5;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::d
-	BigInteger_t653 * ___d_6;
+	BigInteger_t826 * ___d_6;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::p
-	BigInteger_t653 * ___p_7;
+	BigInteger_t826 * ___p_7;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::q
-	BigInteger_t653 * ___q_8;
+	BigInteger_t826 * ___q_8;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::dp
-	BigInteger_t653 * ___dp_9;
+	BigInteger_t826 * ___dp_9;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::dq
-	BigInteger_t653 * ___dq_10;
+	BigInteger_t826 * ___dq_10;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::qInv
-	BigInteger_t653 * ___qInv_11;
+	BigInteger_t826 * ___qInv_11;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::n
-	BigInteger_t653 * ___n_12;
+	BigInteger_t826 * ___n_12;
 	// Mono.Math.BigInteger Mono.Security.Cryptography.RSAManaged::e
-	BigInteger_t653 * ___e_13;
+	BigInteger_t826 * ___e_13;
 	// Mono.Security.Cryptography.RSAManaged/KeyGeneratedEventHandler Mono.Security.Cryptography.RSAManaged::KeyGenerated
-	KeyGeneratedEventHandler_t677 * ___KeyGenerated_14;
+	KeyGeneratedEventHandler_t849 * ___KeyGenerated_14;
 };

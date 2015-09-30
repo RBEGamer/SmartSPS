@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.PropertyAttribute
-struct  PropertyAttribute_t543  : public Attribute_t434
+struct  PropertyAttribute_t546  : public Attribute_t437
 {
 };

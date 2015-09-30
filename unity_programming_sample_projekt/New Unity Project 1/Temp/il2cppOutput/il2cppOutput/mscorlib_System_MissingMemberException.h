@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.MemberAccessException
 #include "mscorlib_System_MemberAccessException.h"
 // System.MissingMemberException
-struct  MissingMemberException_t1590  : public MemberAccessException_t1580
+struct  MissingMemberException_t1842  : public MemberAccessException_t1832
 {
 	// System.String System.MissingMemberException::ClassName
 	String_t* ___ClassName_11;
 	// System.String System.MissingMemberException::MemberName
 	String_t* ___MemberName_12;
 	// System.Byte[] System.MissingMemberException::Signature
-	ByteU5BU5D_t441* ___Signature_13;
+	ByteU5BU5D_t444* ___Signature_13;
 };

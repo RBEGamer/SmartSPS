@@ -3,11 +3,11 @@
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Dropdown
-struct Dropdown_t145;
+struct Dropdown_t55;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>c__Iterator2
-struct  U3CDelayedDestroyDropdownListU3Ec__Iterator2_t144  : public Object_t
+struct  U3CDelayedDestroyDropdownListU3Ec__Iterator2_t150  : public Object_t
 {
 	// System.Single UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>c__Iterator2::delay
 	float ___delay_0;
@@ -20,5 +20,5 @@ struct  U3CDelayedDestroyDropdownListU3Ec__Iterator2_t144  : public Object_t
 	// System.Single UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>c__Iterator2::<$>delay
 	float ___U3CU24U3Edelay_4;
 	// UnityEngine.UI.Dropdown UnityEngine.UI.Dropdown/<DelayedDestroyDropdownList>c__Iterator2::<>f__this
-	Dropdown_t145 * ___U3CU3Ef__this_5;
+	Dropdown_t55 * ___U3CU3Ef__this_5;
 };

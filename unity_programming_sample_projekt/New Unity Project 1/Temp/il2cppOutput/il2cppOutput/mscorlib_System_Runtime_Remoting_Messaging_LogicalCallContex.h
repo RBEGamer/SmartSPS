@@ -3,14 +3,14 @@
 // System.Collections.Hashtable
 struct Hashtable_t53;
 // System.Runtime.Remoting.Messaging.CallContextRemotingData
-struct CallContextRemotingData_t1351;
+struct CallContextRemotingData_t1607;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct  LogicalCallContext_t1350  : public Object_t
+struct  LogicalCallContext_t1606  : public Object_t
 {
 	// System.Collections.Hashtable System.Runtime.Remoting.Messaging.LogicalCallContext::_data
 	Hashtable_t53 * ____data_0;
 	// System.Runtime.Remoting.Messaging.CallContextRemotingData System.Runtime.Remoting.Messaging.LogicalCallContext::_remotingData
-	CallContextRemotingData_t1351 * ____remotingData_1;
+	CallContextRemotingData_t1607 * ____remotingData_1;
 };

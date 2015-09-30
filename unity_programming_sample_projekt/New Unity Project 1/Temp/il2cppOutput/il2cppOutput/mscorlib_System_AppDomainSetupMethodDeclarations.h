@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.AppDomainSetup
-struct AppDomainSetup_t1550;
+struct AppDomainSetup_t1802;
 
 // System.Void System.AppDomainSetup::.ctor()
-extern "C" void AppDomainSetup__ctor_m9330 (AppDomainSetup_t1550 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AppDomainSetup__ctor_m10981 (AppDomainSetup_t1802 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

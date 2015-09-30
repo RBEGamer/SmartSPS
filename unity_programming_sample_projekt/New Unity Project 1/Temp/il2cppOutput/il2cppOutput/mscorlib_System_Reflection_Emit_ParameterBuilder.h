@@ -7,7 +7,7 @@ struct String_t;
 // System.Reflection.ParameterAttributes
 #include "mscorlib_System_Reflection_ParameterAttributes.h"
 // System.Reflection.Emit.ParameterBuilder
-struct  ParameterBuilder_t1222  : public Object_t
+struct  ParameterBuilder_t1481  : public Object_t
 {
 	// System.String System.Reflection.Emit.ParameterBuilder::name
 	String_t* ___name_0;

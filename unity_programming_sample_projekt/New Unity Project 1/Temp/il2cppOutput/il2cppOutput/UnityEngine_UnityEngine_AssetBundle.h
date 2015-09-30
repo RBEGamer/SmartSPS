@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.AssetBundle
-struct  AssetBundle_t394  : public Object_t38
+struct  AssetBundle_t397  : public Object_t39
 {
 };

@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ResolveEventArgs
-struct ResolveEventArgs_t1605;
+struct ResolveEventArgs_t1857;
 // System.String
 struct String_t;
 
 // System.Void System.ResolveEventArgs::.ctor(System.String)
-extern "C" void ResolveEventArgs__ctor_m9995 (ResolveEventArgs_t1605 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ResolveEventArgs__ctor_m11639 (ResolveEventArgs_t1857 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -15,6 +15,6 @@ struct Object_t;
 // System.Boolean
 #include "mscorlib_System_Boolean.h"
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>
-struct  UnityAdsDelegate_2_t461  : public MulticastDelegate_t185
+struct  UnityAdsDelegate_2_t464  : public MulticastDelegate_t190
 {
 };

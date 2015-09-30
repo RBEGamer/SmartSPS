@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
-struct RuntimeCompatibilityAttribute_t1029;
+struct RuntimeCompatibilityAttribute_t1289;
 
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::.ctor()
-extern "C" void RuntimeCompatibilityAttribute__ctor_m6035 (RuntimeCompatibilityAttribute_t1029 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute__ctor_m7641 (RuntimeCompatibilityAttribute_t1289 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::set_WrapNonExceptionThrows(System.Boolean)
-extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m6036 (RuntimeCompatibilityAttribute_t1029 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m7642 (RuntimeCompatibilityAttribute_t1289 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

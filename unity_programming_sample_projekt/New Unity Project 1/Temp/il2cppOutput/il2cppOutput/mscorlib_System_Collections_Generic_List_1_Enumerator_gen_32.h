@@ -1,20 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D>
-struct List_1_t469;
-// UnityEngine.Rigidbody2D
-struct Rigidbody2D_t470;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t280;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>
-struct  Enumerator_t2097 
+// System.Collections.Generic.List`1/Enumerator<System.Int32>
+struct  Enumerator_t2290 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::l
-	List_1_t469 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.Int32>::l
+	List_1_t280 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.Int32>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Rigidbody2D>::current
-	Rigidbody2D_t470 * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<System.Int32>::current
+	int32_t ___current_3;
 };

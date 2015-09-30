@@ -3,12 +3,12 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Char
-struct  Char_t352 
+struct  Char_t355 
 {
 	// System.Char System.Char::m_value
 	uint16_t ___m_value_2;
 };
-struct Char_t352_StaticFields{
+struct Char_t355_StaticFields{
 	// System.Byte* System.Char::category_data
 	uint8_t* ___category_data_3;
 	// System.Byte* System.Char::numeric_data

@@ -3,6 +3,6 @@
 // Mono.Security.Protocol.Tls.Handshake.HandshakeMessage
 #include "Mono_Security_Mono_Security_Protocol_Tls_Handshake_Handshake_0.h"
 // Mono.Security.Protocol.Tls.Handshake.Client.TlsClientCertificateVerify
-struct  TlsClientCertificateVerify_t765  : public HandshakeMessage_t741
+struct  TlsClientCertificateVerify_t936  : public HandshakeMessage_t912
 {
 };

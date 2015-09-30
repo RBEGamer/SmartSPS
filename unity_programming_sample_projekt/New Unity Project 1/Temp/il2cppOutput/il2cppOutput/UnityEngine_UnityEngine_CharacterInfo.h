@@ -7,14 +7,14 @@
 // UnityEngine.FontStyle
 #include "UnityEngine_UnityEngine_FontStyle.h"
 // UnityEngine.CharacterInfo
-struct  CharacterInfo_t495 
+struct  CharacterInfo_t498 
 {
 	// System.Int32 UnityEngine.CharacterInfo::index
 	int32_t ___index_0;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::uv
-	Rect_t191  ___uv_1;
+	Rect_t196  ___uv_1;
 	// UnityEngine.Rect UnityEngine.CharacterInfo::vert
-	Rect_t191  ___vert_2;
+	Rect_t196  ___vert_2;
 	// System.Single UnityEngine.CharacterInfo::width
 	float ___width_3;
 	// System.Int32 UnityEngine.CharacterInfo::size
@@ -31,11 +31,11 @@ struct  CharacterInfo_t495
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.FontStyle
 #include "UnityEngine_UnityEngine_FontStyle.h"
-struct CharacterInfo_t495_marshaled
+struct CharacterInfo_t498_marshaled
 {
 	int32_t ___index_0;
-	Rect_t191  ___uv_1;
-	Rect_t191  ___vert_2;
+	Rect_t196  ___uv_1;
+	Rect_t196  ___vert_2;
 	float ___width_3;
 	int32_t ___size_4;
 	int32_t ___style_5;

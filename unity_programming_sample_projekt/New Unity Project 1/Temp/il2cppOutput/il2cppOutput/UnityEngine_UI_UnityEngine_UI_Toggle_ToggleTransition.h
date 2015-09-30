@@ -5,7 +5,7 @@
 // UnityEngine.UI.Toggle/ToggleTransition
 #include "UnityEngine_UI_UnityEngine_UI_Toggle_ToggleTransition.h"
 // UnityEngine.UI.Toggle/ToggleTransition
-struct  ToggleTransition_t238 
+struct  ToggleTransition_t242 
 {
 	// System.Int32 UnityEngine.UI.Toggle/ToggleTransition::value__
 	int32_t ___value___1;

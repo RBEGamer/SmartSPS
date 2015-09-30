@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.IClipper
-struct IClipper_t313;
+// UnityEngine.UI.StencilMaterial/MatEntry
+struct MatEntry_t239;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<UnityEngine.UI.IClipper>
-struct  Predicate_1_t1977  : public MulticastDelegate_t185
+// System.Predicate`1<UnityEngine.UI.StencilMaterial/MatEntry>
+struct  Predicate_1_t2222  : public MulticastDelegate_t190
 {
 };

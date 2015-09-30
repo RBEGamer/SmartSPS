@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.CompilerServices.RuntimeCompatibilityAttribute
-struct  RuntimeCompatibilityAttribute_t1029  : public Attribute_t434
+struct  RuntimeCompatibilityAttribute_t1289  : public Attribute_t437
 {
 	// System.Boolean System.Runtime.CompilerServices.RuntimeCompatibilityAttribute::wrap_non_exception_throws
 	bool ___wrap_non_exception_throws_0;

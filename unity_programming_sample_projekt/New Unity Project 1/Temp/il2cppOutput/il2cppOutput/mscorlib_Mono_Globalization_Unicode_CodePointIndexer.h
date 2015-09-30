@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Globalization.Unicode.CodePointIndexer/TableRange[]
-struct TableRangeU5BU5D_t1047;
+struct TableRangeU5BU5D_t1307;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Globalization.Unicode.CodePointIndexer
-struct  CodePointIndexer_t1046  : public Object_t
+struct  CodePointIndexer_t1306  : public Object_t
 {
 	// Mono.Globalization.Unicode.CodePointIndexer/TableRange[] Mono.Globalization.Unicode.CodePointIndexer::ranges
-	TableRangeU5BU5D_t1047* ___ranges_0;
+	TableRangeU5BU5D_t1307* ___ranges_0;
 	// System.Int32 Mono.Globalization.Unicode.CodePointIndexer::TotalCount
 	int32_t ___TotalCount_1;
 	// System.Int32 Mono.Globalization.Unicode.CodePointIndexer::defaultIndex

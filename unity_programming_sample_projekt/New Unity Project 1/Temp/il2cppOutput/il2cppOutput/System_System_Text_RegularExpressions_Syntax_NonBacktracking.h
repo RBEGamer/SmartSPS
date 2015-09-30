@@ -3,6 +3,6 @@
 // System.Text.RegularExpressions.Syntax.Group
 #include "System_System_Text_RegularExpressions_Syntax_Group.h"
 // System.Text.RegularExpressions.Syntax.NonBacktrackingGroup
-struct  NonBacktrackingGroup_t959  : public Group_t955
+struct  NonBacktrackingGroup_t1212  : public Group_t1208
 {
 };

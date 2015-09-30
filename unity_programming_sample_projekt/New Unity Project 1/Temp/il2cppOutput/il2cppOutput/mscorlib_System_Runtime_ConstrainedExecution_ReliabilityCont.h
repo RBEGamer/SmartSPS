@@ -7,7 +7,7 @@
 // System.Runtime.ConstrainedExecution.Cer
 #include "mscorlib_System_Runtime_ConstrainedExecution_Cer.h"
 // System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
-struct  ReliabilityContractAttribute_t1286  : public Attribute_t434
+struct  ReliabilityContractAttribute_t1545  : public Attribute_t437
 {
 	// System.Runtime.ConstrainedExecution.Consistency System.Runtime.ConstrainedExecution.ReliabilityContractAttribute::consistency
 	int32_t ___consistency_0;

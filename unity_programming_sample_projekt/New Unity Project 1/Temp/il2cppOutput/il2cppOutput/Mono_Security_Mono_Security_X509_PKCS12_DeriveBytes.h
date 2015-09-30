@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.String
 struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.PKCS12/DeriveBytes
-struct  DeriveBytes_t682  : public Object_t
+struct  DeriveBytes_t854  : public Object_t
 {
 	// System.String Mono.Security.X509.PKCS12/DeriveBytes::_hashName
 	String_t* ____hashName_3;
 	// System.Int32 Mono.Security.X509.PKCS12/DeriveBytes::_iterations
 	int32_t ____iterations_4;
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::_password
-	ByteU5BU5D_t441* ____password_5;
+	ByteU5BU5D_t444* ____password_5;
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::_salt
-	ByteU5BU5D_t441* ____salt_6;
+	ByteU5BU5D_t444* ____salt_6;
 };
-struct DeriveBytes_t682_StaticFields{
+struct DeriveBytes_t854_StaticFields{
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::keyDiversifier
-	ByteU5BU5D_t441* ___keyDiversifier_0;
+	ByteU5BU5D_t444* ___keyDiversifier_0;
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::ivDiversifier
-	ByteU5BU5D_t441* ___ivDiversifier_1;
+	ByteU5BU5D_t444* ___ivDiversifier_1;
 	// System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::macDiversifier
-	ByteU5BU5D_t441* ___macDiversifier_2;
+	ByteU5BU5D_t444* ___macDiversifier_2;
 };

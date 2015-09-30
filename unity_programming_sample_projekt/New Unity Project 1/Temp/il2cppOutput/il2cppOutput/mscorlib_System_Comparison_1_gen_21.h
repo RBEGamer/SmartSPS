@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.CanvasGroup
-struct CanvasGroup_t335;
+// UnityEngine.UI.Selectable
+struct Selectable_t132;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.CanvasGroup>
-struct  Comparison_1_t1959  : public MulticastDelegate_t185
+// System.Comparison`1<UnityEngine.UI.Selectable>
+struct  Comparison_1_t2212  : public MulticastDelegate_t190
 {
 };

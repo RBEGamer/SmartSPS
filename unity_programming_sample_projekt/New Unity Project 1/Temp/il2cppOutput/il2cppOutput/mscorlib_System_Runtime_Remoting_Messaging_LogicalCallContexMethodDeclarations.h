@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct LogicalCallContext_t1350;
+struct LogicalCallContext_t1606;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t584;
+struct SerializationInfo_t587;
 // System.String
 struct String_t;
 // System.Object
@@ -16,10 +16,10 @@ struct Object_t;
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor()
-extern "C" void LogicalCallContext__ctor_m8094 (LogicalCallContext_t1350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext__ctor_m9759 (LogicalCallContext_t1606 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LogicalCallContext__ctor_m8095 (LogicalCallContext_t1350 * __this, SerializationInfo_t584 * ___info, StreamingContext_t585  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext__ctor_m9760 (LogicalCallContext_t1606 * __this, SerializationInfo_t587 * ___info, StreamingContext_t588  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void LogicalCallContext_GetObjectData_m8096 (LogicalCallContext_t1350 * __this, SerializationInfo_t584 * ___info, StreamingContext_t585  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext_GetObjectData_m9761 (LogicalCallContext_t1606 * __this, SerializationInfo_t587 * ___info, StreamingContext_t588  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.Remoting.Messaging.LogicalCallContext::SetData(System.String,System.Object)
-extern "C" void LogicalCallContext_SetData_m8097 (LogicalCallContext_t1350 * __this, String_t* ___name, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LogicalCallContext_SetData_m9762 (LogicalCallContext_t1606 * __this, String_t* ___name, Object_t * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;

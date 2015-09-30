@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.X509Chain
-struct X509Chain_t691;
+struct X509Chain_t863;
 // Mono.Security.X509.X509CertificateCollection
-struct X509CertificateCollection_t684;
+struct X509CertificateCollection_t856;
 // Mono.Security.X509.X509Certificate
-struct X509Certificate_t686;
+struct X509Certificate_t858;
 // Mono.Security.X509.X509ChainStatusFlags
 #include "Mono_Security_Mono_Security_X509_X509ChainStatusFlags.h"
 
 // System.Void Mono.Security.X509.X509Chain::.ctor()
-extern "C" void X509Chain__ctor_m3496 (X509Chain_t691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain__ctor_m4228 (X509Chain_t863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509Chain::.ctor(Mono.Security.X509.X509CertificateCollection)
-extern "C" void X509Chain__ctor_m3497 (X509Chain_t691 * __this, X509CertificateCollection_t684 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void X509Chain__ctor_m4229 (X509Chain_t863 * __this, X509CertificateCollection_t856 * ___chain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509ChainStatusFlags Mono.Security.X509.X509Chain::get_Status()
-extern "C" int32_t X509Chain_get_Status_m3498 (X509Chain_t691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t X509Chain_get_Status_m4230 (X509Chain_t863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Chain::get_TrustAnchors()
-extern "C" X509CertificateCollection_t684 * X509Chain_get_TrustAnchors_m3499 (X509Chain_t691 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509CertificateCollection_t856 * X509Chain_get_TrustAnchors_m4231 (X509Chain_t863 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Chain::Build(Mono.Security.X509.X509Certificate)
-extern "C" bool X509Chain_Build_m3500 (X509Chain_t691 * __this, X509Certificate_t686 * ___leaf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_Build_m4232 (X509Chain_t863 * __this, X509Certificate_t858 * ___leaf, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Chain::IsValid(Mono.Security.X509.X509Certificate)
-extern "C" bool X509Chain_IsValid_m3501 (X509Chain_t691 * __this, X509Certificate_t686 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsValid_m4233 (X509Chain_t863 * __this, X509Certificate_t858 * ___cert, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Certificate Mono.Security.X509.X509Chain::FindCertificateParent(Mono.Security.X509.X509Certificate)
-extern "C" X509Certificate_t686 * X509Chain_FindCertificateParent_m3502 (X509Chain_t691 * __this, X509Certificate_t686 * ___child, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t858 * X509Chain_FindCertificateParent_m4234 (X509Chain_t863 * __this, X509Certificate_t858 * ___child, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Certificate Mono.Security.X509.X509Chain::FindCertificateRoot(Mono.Security.X509.X509Certificate)
-extern "C" X509Certificate_t686 * X509Chain_FindCertificateRoot_m3503 (X509Chain_t691 * __this, X509Certificate_t686 * ___potentialRoot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" X509Certificate_t858 * X509Chain_FindCertificateRoot_m4235 (X509Chain_t863 * __this, X509Certificate_t858 * ___potentialRoot, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Chain::IsTrusted(Mono.Security.X509.X509Certificate)
-extern "C" bool X509Chain_IsTrusted_m3504 (X509Chain_t691 * __this, X509Certificate_t686 * ___potentialTrusted, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsTrusted_m4236 (X509Chain_t863 * __this, X509Certificate_t858 * ___potentialTrusted, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Chain::IsParent(Mono.Security.X509.X509Certificate,Mono.Security.X509.X509Certificate)
-extern "C" bool X509Chain_IsParent_m3505 (X509Chain_t691 * __this, X509Certificate_t686 * ___child, X509Certificate_t686 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool X509Chain_IsParent_m4237 (X509Chain_t863 * __this, X509Certificate_t858 * ___child, X509Certificate_t858 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

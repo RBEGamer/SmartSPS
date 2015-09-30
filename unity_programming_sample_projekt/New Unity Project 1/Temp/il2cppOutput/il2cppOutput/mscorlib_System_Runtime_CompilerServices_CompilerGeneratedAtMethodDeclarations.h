@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.CompilerGeneratedAttribute
-struct CompilerGeneratedAttribute_t1027;
+struct CompilerGeneratedAttribute_t1287;
 
 // System.Void System.Runtime.CompilerServices.CompilerGeneratedAttribute::.ctor()
-extern "C" void CompilerGeneratedAttribute__ctor_m6033 (CompilerGeneratedAttribute_t1027 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CompilerGeneratedAttribute__ctor_m7639 (CompilerGeneratedAttribute_t1287 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.AppDomain
-struct AppDomain_t587;
+struct AppDomain_t590;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.Object
@@ -9,16 +9,16 @@ struct MethodInfo_t;
 // System.Security.RuntimeDeclSecurityEntry
 #include "mscorlib_System_Security_RuntimeDeclSecurityEntry.h"
 // System.Security.RuntimeSecurityFrame
-struct  RuntimeSecurityFrame_t1496  : public Object_t
+struct  RuntimeSecurityFrame_t1750  : public Object_t
 {
 	// System.AppDomain System.Security.RuntimeSecurityFrame::domain
-	AppDomain_t587 * ___domain_0;
+	AppDomain_t590 * ___domain_0;
 	// System.Reflection.MethodInfo System.Security.RuntimeSecurityFrame::method
 	MethodInfo_t * ___method_1;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::assert
-	RuntimeDeclSecurityEntry_t1495  ___assert_2;
+	RuntimeDeclSecurityEntry_t1749  ___assert_2;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::deny
-	RuntimeDeclSecurityEntry_t1495  ___deny_3;
+	RuntimeDeclSecurityEntry_t1749  ___deny_3;
 	// System.Security.RuntimeDeclSecurityEntry System.Security.RuntimeSecurityFrame::permitonly
-	RuntimeDeclSecurityEntry_t1495  ___permitonly_4;
+	RuntimeDeclSecurityEntry_t1749  ___permitonly_4;
 };

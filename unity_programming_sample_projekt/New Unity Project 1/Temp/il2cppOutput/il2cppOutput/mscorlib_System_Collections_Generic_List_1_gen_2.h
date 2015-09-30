@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.EventSystems.RaycastResult[]
-struct RaycastResultU5BU5D_t1768;
+// UnityEngine.EventSystems.BaseInputModule[]
+struct BaseInputModuleU5BU5D_t1994;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct  List_1_t100  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
+struct  List_1_t66  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_items
-	RaycastResultU5BU5D_t1768* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_items
+	BaseInputModuleU5BU5D_t1994* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::_version
 	int32_t ____version_3;
 };
-struct List_1_t100_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>::EmptyArray
-	RaycastResultU5BU5D_t1768* ___EmptyArray_4;
+struct List_1_t66_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>::EmptyArray
+	BaseInputModuleU5BU5D_t1994* ___EmptyArray_4;
 };

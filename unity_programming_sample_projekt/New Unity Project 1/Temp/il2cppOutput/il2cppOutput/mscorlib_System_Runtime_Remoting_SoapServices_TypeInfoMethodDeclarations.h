@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.SoapServices/TypeInfo
-struct TypeInfo_t1397;
+struct TypeInfo_t1652;
 
 // System.Void System.Runtime.Remoting.SoapServices/TypeInfo::.ctor()
-extern "C" void TypeInfo__ctor_m8350 (TypeInfo_t1397 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TypeInfo__ctor_m10015 (TypeInfo_t1652 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

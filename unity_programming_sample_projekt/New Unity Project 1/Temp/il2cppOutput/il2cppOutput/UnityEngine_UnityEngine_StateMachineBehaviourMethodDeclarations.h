@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.StateMachineBehaviour
-struct StateMachineBehaviour_t551;
+struct StateMachineBehaviour_t554;
 
 // System.Void UnityEngine.StateMachineBehaviour::.ctor()
-extern "C" void StateMachineBehaviour__ctor_m2984 (StateMachineBehaviour_t551 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StateMachineBehaviour__ctor_m2996 (StateMachineBehaviour_t554 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

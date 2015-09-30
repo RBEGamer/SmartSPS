@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Events.BaseInvokableCall[]
-struct BaseInvokableCallU5BU5D_t2146;
+// UnityEngine.Events.PersistentCall[]
+struct PersistentCallU5BU5D_t2400;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
-struct  List_1_t561  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>
+struct  List_1_t562  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_items
-	BaseInvokableCallU5BU5D_t2146* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_items
+	PersistentCallU5BU5D_t2400* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::_version
 	int32_t ____version_3;
 };
-struct List_1_t561_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::EmptyArray
-	BaseInvokableCallU5BU5D_t2146* ___EmptyArray_4;
+struct List_1_t562_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall>::EmptyArray
+	PersistentCallU5BU5D_t2400* ___EmptyArray_4;
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.IClippable[]
-struct IClippableU5BU5D_t1940;
+// UnityEngine.UI.RectMask2D[]
+struct RectMask2DU5BU5D_t2193;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.IClippable>
-struct  List_1_t211  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
+struct  List_1_t216  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_items
-	IClippableU5BU5D_t1940* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_items
+	RectMask2DU5BU5D_t2193* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_version
 	int32_t ____version_3;
 };
-struct List_1_t211_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::EmptyArray
-	IClippableU5BU5D_t1940* ___EmptyArray_4;
+struct List_1_t216_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::EmptyArray
+	RectMask2DU5BU5D_t2193* ___EmptyArray_4;
 };

@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.Type[]
-struct TypeU5BU5D_t582;
+struct TypeU5BU5D_t585;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.Formatters.Binary.BinaryCommon
-struct  BinaryCommon_t1403  : public Object_t
+struct  BinaryCommon_t1658  : public Object_t
 {
 };
-struct BinaryCommon_t1403_StaticFields{
+struct BinaryCommon_t1658_StaticFields{
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::BinaryHeader
-	ByteU5BU5D_t441* ___BinaryHeader_0;
+	ByteU5BU5D_t444* ___BinaryHeader_0;
 	// System.Type[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodesToType
-	TypeU5BU5D_t582* ____typeCodesToType_1;
+	TypeU5BU5D_t585* ____typeCodesToType_1;
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.BinaryCommon::_typeCodeMap
-	ByteU5BU5D_t441* ____typeCodeMap_2;
+	ByteU5BU5D_t444* ____typeCodeMap_2;
 	// System.Boolean System.Runtime.Serialization.Formatters.Binary.BinaryCommon::UseReflectionSerialization
 	bool ___UseReflectionSerialization_3;
 };

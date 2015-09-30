@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngineInternal.NetFxCoreExtensions
-struct  NetFxCoreExtensions_t568  : public Object_t
+struct  NetFxCoreExtensions_t571  : public Object_t
 {
 };

@@ -7,10 +7,10 @@ struct Object_t;
 // UnityEngine.UI.CoroutineTween.FloatTween
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_FloatTween.h"
 // UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>
-struct  U3CStartU3Ec__Iterator0_t1858  : public Object_t
+struct  U3CStartU3Ec__Iterator0_t2117  : public Object_t
 {
 	// T UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>::tweenInfo
-	FloatTween_t120  ___tweenInfo_0;
+	FloatTween_t126  ___tweenInfo_0;
 	// System.Single UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>::<elapsedTime>__0
 	float ___U3CelapsedTimeU3E__0_1;
 	// System.Single UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>::<percentage>__1
@@ -20,5 +20,5 @@ struct  U3CStartU3Ec__Iterator0_t1858  : public Object_t
 	// System.Object UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>::$current
 	Object_t * ___U24current_4;
 	// T UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>c__Iterator0<UnityEngine.UI.CoroutineTween.FloatTween>::<$>tweenInfo
-	FloatTween_t120  ___U3CU24U3EtweenInfo_5;
+	FloatTween_t126  ___U3CU24U3EtweenInfo_5;
 };

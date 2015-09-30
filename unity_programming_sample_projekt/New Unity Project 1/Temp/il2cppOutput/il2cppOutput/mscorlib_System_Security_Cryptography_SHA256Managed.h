@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt32[]
-struct UInt32U5BU5D_t635;
+struct UInt32U5BU5D_t730;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.Security.Cryptography.SHA256
 #include "mscorlib_System_Security_Cryptography_SHA256.h"
 // System.Security.Cryptography.SHA256Managed
-struct  SHA256Managed_t1465  : public SHA256_t801
+struct  SHA256Managed_t1720  : public SHA256_t971
 {
 	// System.UInt32[] System.Security.Cryptography.SHA256Managed::_H
-	UInt32U5BU5D_t635* ____H_4;
+	UInt32U5BU5D_t730* ____H_4;
 	// System.UInt64 System.Security.Cryptography.SHA256Managed::count
 	uint64_t ___count_5;
 	// System.Byte[] System.Security.Cryptography.SHA256Managed::_ProcessingBuffer
-	ByteU5BU5D_t441* ____ProcessingBuffer_6;
+	ByteU5BU5D_t444* ____ProcessingBuffer_6;
 	// System.Int32 System.Security.Cryptography.SHA256Managed::_ProcessingBufferCount
 	int32_t ____ProcessingBufferCount_7;
 	// System.UInt32[] System.Security.Cryptography.SHA256Managed::buff
-	UInt32U5BU5D_t635* ___buff_8;
+	UInt32U5BU5D_t730* ___buff_8;
 };

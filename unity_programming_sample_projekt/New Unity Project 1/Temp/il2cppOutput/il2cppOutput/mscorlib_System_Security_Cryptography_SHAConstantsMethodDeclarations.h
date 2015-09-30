@@ -6,4 +6,4 @@
 
 
 // System.Void System.Security.Cryptography.SHAConstants::.cctor()
-extern "C" void SHAConstants__cctor_m8815 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SHAConstants__cctor_m10479 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

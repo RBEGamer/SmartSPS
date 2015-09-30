@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.RSA
-struct RSA_t680;
+struct RSA_t852;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t627;
+struct RandomNumberGenerator_t804;
 // System.Security.Cryptography.AsymmetricKeyExchangeFormatter
 #include "mscorlib_System_Security_Cryptography_AsymmetricKeyExchangeF.h"
 // System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter
-struct  RSAPKCS1KeyExchangeFormatter_t827  : public AsymmetricKeyExchangeFormatter_t1439
+struct  RSAPKCS1KeyExchangeFormatter_t990  : public AsymmetricKeyExchangeFormatter_t1694
 {
 	// System.Security.Cryptography.RSA System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter::rsa
-	RSA_t680 * ___rsa_0;
+	RSA_t852 * ___rsa_0;
 	// System.Security.Cryptography.RandomNumberGenerator System.Security.Cryptography.RSAPKCS1KeyExchangeFormatter::random
-	RandomNumberGenerator_t627 * ___random_1;
+	RandomNumberGenerator_t804 * ___random_1;
 };

@@ -7,7 +7,7 @@ struct node_t16;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<node>
-struct  Enumerator_t50 
+struct  Enumerator_t51 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<node>::l
 	List_1_t25 * ___l_0;

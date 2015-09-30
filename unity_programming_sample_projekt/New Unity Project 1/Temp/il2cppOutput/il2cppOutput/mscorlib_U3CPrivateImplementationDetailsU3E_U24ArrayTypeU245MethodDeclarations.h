@@ -5,6 +5,6 @@
 #include "codegen/il2cpp-codegen.h"
 
 
-extern "C" void U24ArrayTypeU2456_t1625_marshal(const U24ArrayTypeU2456_t1625& unmarshaled, U24ArrayTypeU2456_t1625_marshaled& marshaled);
-extern "C" void U24ArrayTypeU2456_t1625_marshal_back(const U24ArrayTypeU2456_t1625_marshaled& marshaled, U24ArrayTypeU2456_t1625& unmarshaled);
-extern "C" void U24ArrayTypeU2456_t1625_marshal_cleanup(U24ArrayTypeU2456_t1625_marshaled& marshaled);
+extern "C" void U24ArrayTypeU2456_t1874_marshal(const U24ArrayTypeU2456_t1874& unmarshaled, U24ArrayTypeU2456_t1874_marshaled& marshaled);
+extern "C" void U24ArrayTypeU2456_t1874_marshal_back(const U24ArrayTypeU2456_t1874_marshaled& marshaled, U24ArrayTypeU2456_t1874& unmarshaled);
+extern "C" void U24ArrayTypeU2456_t1874_marshal_cleanup(U24ArrayTypeU2456_t1874_marshaled& marshaled);

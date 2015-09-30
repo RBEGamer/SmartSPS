@@ -3,20 +3,20 @@
 // System.String
 struct String_t;
 // System.Collections.ArrayList
-struct ArrayList_t660;
+struct ArrayList_t695;
 // System.Collections.Hashtable
 struct Hashtable_t53;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.Syntax.Parser
-struct  Parser_t950  : public Object_t
+struct  Parser_t1203  : public Object_t
 {
 	// System.String System.Text.RegularExpressions.Syntax.Parser::pattern
 	String_t* ___pattern_0;
 	// System.Int32 System.Text.RegularExpressions.Syntax.Parser::ptr
 	int32_t ___ptr_1;
 	// System.Collections.ArrayList System.Text.RegularExpressions.Syntax.Parser::caps
-	ArrayList_t660 * ___caps_2;
+	ArrayList_t695 * ___caps_2;
 	// System.Collections.Hashtable System.Text.RegularExpressions.Syntax.Parser::refs
 	Hashtable_t53 * ___refs_3;
 	// System.Int32 System.Text.RegularExpressions.Syntax.Parser::num_groups

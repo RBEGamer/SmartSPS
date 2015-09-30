@@ -12,8 +12,8 @@ struct Array_t;
 #include "mscorlib_System_RuntimeFieldHandle.h"
 
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.IntPtr)
-extern "C" void RuntimeHelpers_InitializeArray_m6049 (Object_t * __this /* static, unused */, Array_t * ___array, IntPtr_t ___fldHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeHelpers_InitializeArray_m7654 (Object_t * __this /* static, unused */, Array_t * ___array, IntPtr_t ___fldHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
-extern "C" void RuntimeHelpers_InitializeArray_m3223 (Object_t * __this /* static, unused */, Array_t * ___array, RuntimeFieldHandle_t1017  ___fldHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RuntimeHelpers_InitializeArray_m3813 (Object_t * __this /* static, unused */, Array_t * ___array, RuntimeFieldHandle_t1277  ___fldHandle, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Runtime.CompilerServices.RuntimeHelpers::get_OffsetToStringData()
-extern "C" int32_t RuntimeHelpers_get_OffsetToStringData_m6050 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t RuntimeHelpers_get_OffsetToStringData_m7655 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

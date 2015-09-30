@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.Comparer`1<System.TimeSpan>
+// System.Collections.Generic.Comparer`1<System.DateTimeOffset>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_12.h"
-// System.Collections.Generic.Comparer`1/DefaultComparer<System.TimeSpan>
-struct  DefaultComparer_t2250  : public Comparer_1_t2249
+// System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTimeOffset>
+struct  DefaultComparer_t2533  : public Comparer_1_t2532
 {
 };

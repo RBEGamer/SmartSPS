@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.StackBuilderSink
-struct StackBuilderSink_t1363;
+struct StackBuilderSink_t1619;
 // System.MarshalByRefObject
-struct MarshalByRefObject_t874;
+struct MarshalByRefObject_t1126;
 
 // System.Void System.Runtime.Remoting.Messaging.StackBuilderSink::.ctor(System.MarshalByRefObject,System.Boolean)
-extern "C" void StackBuilderSink__ctor_m8185 (StackBuilderSink_t1363 * __this, MarshalByRefObject_t874 * ___obj, bool ___forceInternalExecute, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StackBuilderSink__ctor_m9850 (StackBuilderSink_t1619 * __this, MarshalByRefObject_t1126 * ___obj, bool ___forceInternalExecute, const MethodInfo* method) IL2CPP_METHOD_ATTR;

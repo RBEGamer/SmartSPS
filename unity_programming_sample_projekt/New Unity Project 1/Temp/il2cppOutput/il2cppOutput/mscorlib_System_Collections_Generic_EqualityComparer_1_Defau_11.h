@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<System.DateTimeOffset>
+// System.Collections.Generic.EqualityComparer`1<System.Boolean>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_11.h"
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.DateTimeOffset>
-struct  DefaultComparer_t2244  : public EqualityComparer_1_t2243
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Boolean>
+struct  DefaultComparer_t2467  : public EqualityComparer_1_t2465
 {
 };

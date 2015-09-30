@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t660;
+struct ArrayList_t695;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection
-struct  DynamicPropertyCollection_t1320  : public Object_t
+struct  DynamicPropertyCollection_t1578  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Contexts.DynamicPropertyCollection::_properties
-	ArrayList_t660 * ____properties_0;
+	ArrayList_t695 * ____properties_0;
 };

@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -13,6 +13,6 @@ struct Object_t;
 // UnityEngine.CullingGroupEvent
 #include "UnityEngine_UnityEngine_CullingGroupEvent.h"
 // UnityEngine.CullingGroup/StateChanged
-struct  StateChanged_t421  : public MulticastDelegate_t185
+struct  StateChanged_t424  : public MulticastDelegate_t190
 {
 };

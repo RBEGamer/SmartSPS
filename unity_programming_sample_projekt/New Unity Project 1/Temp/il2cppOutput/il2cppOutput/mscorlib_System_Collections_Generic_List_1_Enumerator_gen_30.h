@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<System.String>
-struct List_1_t440;
-// System.String
-struct String_t;
+// System.Collections.Generic.List`1<UnityEngine.Vector2>
+struct List_1_t278;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<System.String>
-struct  Enumerator_t2081 
+// UnityEngine.Vector2
+#include "UnityEngine_UnityEngine_Vector2.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>
+struct  Enumerator_t2269 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<System.String>::l
-	List_1_t440 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.String>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::l
+	List_1_t278 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<System.String>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<System.String>::current
-	String_t* ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>::current
+	Vector2_t11  ___current_3;
 };

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.RectTransform
-struct RectTransform_t138;
+// UnityEngine.UI.IClipper
+struct IClipper_t317;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.RectTransform>
-struct  Comparison_1_t1987  : public MulticastDelegate_t185
+// System.Comparison`1<UnityEngine.UI.IClipper>
+struct  Comparison_1_t2237  : public MulticastDelegate_t190
 {
 };

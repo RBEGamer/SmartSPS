@@ -5,10 +5,10 @@ struct String_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.StackTraceUtility
-struct  StackTraceUtility_t549  : public Object_t
+struct  StackTraceUtility_t552  : public Object_t
 {
 };
-struct StackTraceUtility_t549_StaticFields{
+struct StackTraceUtility_t552_StaticFields{
 	// System.String UnityEngine.StackTraceUtility::projectFolder
 	String_t* ___projectFolder_0;
 };

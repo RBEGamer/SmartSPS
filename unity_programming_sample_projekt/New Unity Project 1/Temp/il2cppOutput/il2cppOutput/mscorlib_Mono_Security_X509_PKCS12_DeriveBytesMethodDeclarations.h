@@ -5,31 +5,31 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.X509.PKCS12/DeriveBytes
-struct DeriveBytes_t1090;
+struct DeriveBytes_t1350;
 // System.String
 struct String_t;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::.ctor()
-extern "C" void DeriveBytes__ctor_m6389 (DeriveBytes_t1090 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes__ctor_m7994 (DeriveBytes_t1350 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::.cctor()
-extern "C" void DeriveBytes__cctor_m6390 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes__cctor_m7995 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_HashName(System.String)
-extern "C" void DeriveBytes_set_HashName_m6391 (DeriveBytes_t1090 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes_set_HashName_m7996 (DeriveBytes_t1350 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_IterationCount(System.Int32)
-extern "C" void DeriveBytes_set_IterationCount_m6392 (DeriveBytes_t1090 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes_set_IterationCount_m7997 (DeriveBytes_t1350 * __this, int32_t ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Password(System.Byte[])
-extern "C" void DeriveBytes_set_Password_m6393 (DeriveBytes_t1090 * __this, ByteU5BU5D_t441* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes_set_Password_m7998 (DeriveBytes_t1350 * __this, ByteU5BU5D_t444* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::set_Salt(System.Byte[])
-extern "C" void DeriveBytes_set_Salt_m6394 (DeriveBytes_t1090 * __this, ByteU5BU5D_t441* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes_set_Salt_m7999 (DeriveBytes_t1350 * __this, ByteU5BU5D_t444* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.PKCS12/DeriveBytes::Adjust(System.Byte[],System.Int32,System.Byte[])
-extern "C" void DeriveBytes_Adjust_m6395 (DeriveBytes_t1090 * __this, ByteU5BU5D_t441* ___a, int32_t ___aOff, ByteU5BU5D_t441* ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DeriveBytes_Adjust_m8000 (DeriveBytes_t1350 * __this, ByteU5BU5D_t444* ___a, int32_t ___aOff, ByteU5BU5D_t444* ___b, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::Derive(System.Byte[],System.Int32)
-extern "C" ByteU5BU5D_t441* DeriveBytes_Derive_m6396 (DeriveBytes_t1090 * __this, ByteU5BU5D_t441* ___diversifier, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t444* DeriveBytes_Derive_m8001 (DeriveBytes_t1350 * __this, ByteU5BU5D_t444* ___diversifier, int32_t ___n, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveKey(System.Int32)
-extern "C" ByteU5BU5D_t441* DeriveBytes_DeriveKey_m6397 (DeriveBytes_t1090 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t444* DeriveBytes_DeriveKey_m8002 (DeriveBytes_t1350 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveIV(System.Int32)
-extern "C" ByteU5BU5D_t441* DeriveBytes_DeriveIV_m6398 (DeriveBytes_t1090 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t444* DeriveBytes_DeriveIV_m8003 (DeriveBytes_t1350 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.PKCS12/DeriveBytes::DeriveMAC(System.Int32)
-extern "C" ByteU5BU5D_t441* DeriveBytes_DeriveMAC_m6399 (DeriveBytes_t1090 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t444* DeriveBytes_DeriveMAC_m8004 (DeriveBytes_t1350 * __this, int32_t ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;

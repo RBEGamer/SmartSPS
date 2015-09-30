@@ -56,7 +56,8 @@ public class node_conection : MonoBehaviour {
 
 
 	public void redraw_curve(){
-		if(connection_destination_input_id > 0 && connection_type == enums.con_type.input){
+		//&& connection_type == enums.con_type.input
+		if(connection_destination_input_id > 0 ){
 			foreach (GameObject item in GameObject.FindGameObjectsWithTag("connection")) {
 				if(item.GetComponent<node_conection>().connection_id == connection_destination_input_id){
 				//	if(item.GetComponent<node_conection>().connection_type == enums.con_type.output){

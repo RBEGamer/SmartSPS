@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.Syntax.Expression
-struct  Expression_t953  : public Object_t
+struct  Expression_t1206  : public Object_t
 {
 };

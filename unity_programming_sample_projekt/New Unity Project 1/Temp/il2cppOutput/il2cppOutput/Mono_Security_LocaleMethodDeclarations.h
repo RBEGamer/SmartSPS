@@ -8,4 +8,4 @@
 struct String_t;
 
 // System.String Locale::GetText(System.String)
-extern "C" String_t* Locale_GetText_m3224 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Locale_GetText_m3956 (Object_t * __this /* static, unused */, String_t* ___msg, const MethodInfo* method) IL2CPP_METHOD_ATTR;

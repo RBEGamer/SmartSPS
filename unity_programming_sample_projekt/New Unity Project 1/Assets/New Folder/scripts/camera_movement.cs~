@@ -37,7 +37,17 @@ public class camera_movement : MonoBehaviour {
 		this.transform.rotation = Quaternion.AngleAxis(steigungswinkel_grad, Vector3.right);
 		camera_position_offset = initial_camera_position;
 	}
-	
+
+
+	public void reset_view(){
+		camera_height = camera_max_height;
+		camera_z = 0;
+		camera_zoom = camera_max_zoom;
+		//steigungswinkel_rad = steigungswinkel_grad*0.017453292519943;
+		//this.transform.rotation = Quaternion.AngleAxis(-steigungswinkel_grad, Vector3.right);
+		this.transform.rotation = Quaternion.AngleAxis(steigungswinkel_grad, Vector3.right);
+		camera_position_offset = initial_camera_position;
+	}
 	// Update is called once per frame
 	void FixedUpdate () {
 		
@@ -80,7 +90,7 @@ public class camera_movement : MonoBehaviour {
 						Vector2 tmp_delta = touches[0].deltaPosition;
 						float pos_x = tmp_delta.x*Time.deltaTime*-intert_input_value*camera_movement_speed_mobile;
 						float pos_y = tmp_delta.y*Time.deltaTime*-intert_input_value*camera_movement_speed_mobile;
-						camera_position_offset += new Vector3(pos_x,0,pos_y);
+						camera_position_offset += new Vector3(pos_x,pos_y,0);
 					}
 				}// t == 1
 				//zoom double touche

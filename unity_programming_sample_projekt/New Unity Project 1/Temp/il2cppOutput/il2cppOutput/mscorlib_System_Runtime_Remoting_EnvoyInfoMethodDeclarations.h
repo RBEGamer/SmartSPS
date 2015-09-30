@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.EnvoyInfo
-struct EnvoyInfo_t1378;
+struct EnvoyInfo_t1634;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1322;
+struct IMessageSink_t1580;
 
 // System.Void System.Runtime.Remoting.EnvoyInfo::.ctor(System.Runtime.Remoting.Messaging.IMessageSink)
-extern "C" void EnvoyInfo__ctor_m8236 (EnvoyInfo_t1378 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void EnvoyInfo__ctor_m9901 (EnvoyInfo_t1634 * __this, Object_t * ___sinks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Runtime.Remoting.Messaging.IMessageSink System.Runtime.Remoting.EnvoyInfo::get_EnvoySinks()
-extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m8237 (EnvoyInfo_t1378 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * EnvoyInfo_get_EnvoySinks_m9902 (EnvoyInfo_t1634 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

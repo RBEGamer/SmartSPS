@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Behaviour
-struct Behaviour_t380;
+struct Behaviour_t383;
 
 // System.Void UnityEngine.Behaviour::.ctor()
-extern "C" void Behaviour__ctor_m2494 (Behaviour_t380 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Behaviour__ctor_m2506 (Behaviour_t383 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Behaviour::get_enabled()
-extern "C" bool Behaviour_get_enabled_m1581 (Behaviour_t380 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Behaviour_get_enabled_m1595 (Behaviour_t383 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
-extern "C" void Behaviour_set_enabled_m1715 (Behaviour_t380 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Behaviour_set_enabled_m1729 (Behaviour_t383 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Behaviour::get_isActiveAndEnabled()
-extern "C" bool Behaviour_get_isActiveAndEnabled_m1573 (Behaviour_t380 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Behaviour_get_isActiveAndEnabled_m1587 (Behaviour_t383 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

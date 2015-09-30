@@ -5,10 +5,10 @@ struct Hashtable_t53;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.SoapServices
-struct  SoapServices_t1398  : public Object_t
+struct  SoapServices_t1653  : public Object_t
 {
 };
-struct SoapServices_t1398_StaticFields{
+struct SoapServices_t1653_StaticFields{
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_xmlTypes
 	Hashtable_t53 * ____xmlTypes_0;
 	// System.Collections.Hashtable System.Runtime.Remoting.SoapServices::_xmlElements

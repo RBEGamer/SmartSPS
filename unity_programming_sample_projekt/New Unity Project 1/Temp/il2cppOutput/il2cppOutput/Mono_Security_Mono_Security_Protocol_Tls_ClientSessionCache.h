@@ -7,10 +7,10 @@ struct Object_t;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.ClientSessionCache
-struct  ClientSessionCache_t724  : public Object_t
+struct  ClientSessionCache_t896  : public Object_t
 {
 };
-struct ClientSessionCache_t724_StaticFields{
+struct ClientSessionCache_t896_StaticFields{
 	// System.Collections.Hashtable Mono.Security.Protocol.Tls.ClientSessionCache::cache
 	Hashtable_t53 * ___cache_0;
 	// System.Object Mono.Security.Protocol.Tls.ClientSessionCache::locker

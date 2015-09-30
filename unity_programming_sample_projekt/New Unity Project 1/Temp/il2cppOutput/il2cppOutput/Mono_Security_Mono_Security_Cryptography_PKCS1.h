@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.PKCS1
-struct  PKCS1_t673  : public Object_t
+struct  PKCS1_t845  : public Object_t
 {
 };
-struct PKCS1_t673_StaticFields{
+struct PKCS1_t845_StaticFields{
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA1
-	ByteU5BU5D_t441* ___emptySHA1_0;
+	ByteU5BU5D_t444* ___emptySHA1_0;
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA256
-	ByteU5BU5D_t441* ___emptySHA256_1;
+	ByteU5BU5D_t444* ___emptySHA256_1;
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA384
-	ByteU5BU5D_t441* ___emptySHA384_2;
+	ByteU5BU5D_t444* ___emptySHA384_2;
 	// System.Byte[] Mono.Security.Cryptography.PKCS1::emptySHA512
-	ByteU5BU5D_t441* ___emptySHA512_3;
+	ByteU5BU5D_t444* ___emptySHA512_3;
 };

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.SharedBetweenAnimatorsAttribute
-struct  SharedBetweenAnimatorsAttribute_t550  : public Attribute_t434
+struct  SharedBetweenAnimatorsAttribute_t553  : public Attribute_t437
 {
 };

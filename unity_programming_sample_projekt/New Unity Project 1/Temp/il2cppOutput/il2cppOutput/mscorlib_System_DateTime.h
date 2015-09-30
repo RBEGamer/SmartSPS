@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.String[]
-struct StringU5BU5D_t48;
+struct StringU5BU5D_t49;
 // System.Int32[]
-struct Int32U5BU5D_t388;
+struct Int32U5BU5D_t391;
 // System.Object
 struct Object_t;
 // System.ValueType
@@ -18,7 +18,7 @@ struct Object_t;
 struct  DateTime_t54 
 {
 	// System.TimeSpan System.DateTime::ticks
-	TimeSpan_t896  ___ticks_0;
+	TimeSpan_t1151  ___ticks_0;
 	// System.DateTimeKind System.DateTime::kind
 	int32_t ___kind_1;
 };
@@ -28,23 +28,23 @@ struct DateTime_t54_StaticFields{
 	// System.DateTime System.DateTime::MinValue
 	DateTime_t54  ___MinValue_3;
 	// System.String[] System.DateTime::ParseTimeFormats
-	StringU5BU5D_t48* ___ParseTimeFormats_4;
+	StringU5BU5D_t49* ___ParseTimeFormats_4;
 	// System.String[] System.DateTime::ParseYearDayMonthFormats
-	StringU5BU5D_t48* ___ParseYearDayMonthFormats_5;
+	StringU5BU5D_t49* ___ParseYearDayMonthFormats_5;
 	// System.String[] System.DateTime::ParseYearMonthDayFormats
-	StringU5BU5D_t48* ___ParseYearMonthDayFormats_6;
+	StringU5BU5D_t49* ___ParseYearMonthDayFormats_6;
 	// System.String[] System.DateTime::ParseDayMonthYearFormats
-	StringU5BU5D_t48* ___ParseDayMonthYearFormats_7;
+	StringU5BU5D_t49* ___ParseDayMonthYearFormats_7;
 	// System.String[] System.DateTime::ParseMonthDayYearFormats
-	StringU5BU5D_t48* ___ParseMonthDayYearFormats_8;
+	StringU5BU5D_t49* ___ParseMonthDayYearFormats_8;
 	// System.String[] System.DateTime::MonthDayShortFormats
-	StringU5BU5D_t48* ___MonthDayShortFormats_9;
+	StringU5BU5D_t49* ___MonthDayShortFormats_9;
 	// System.String[] System.DateTime::DayMonthShortFormats
-	StringU5BU5D_t48* ___DayMonthShortFormats_10;
+	StringU5BU5D_t49* ___DayMonthShortFormats_10;
 	// System.Int32[] System.DateTime::daysmonth
-	Int32U5BU5D_t388* ___daysmonth_11;
+	Int32U5BU5D_t391* ___daysmonth_11;
 	// System.Int32[] System.DateTime::daysmonthleap
-	Int32U5BU5D_t388* ___daysmonthleap_12;
+	Int32U5BU5D_t391* ___daysmonthleap_12;
 	// System.Object System.DateTime::to_local_time_span_object
 	Object_t * ___to_local_time_span_object_13;
 	// System.Int64 System.DateTime::last_now

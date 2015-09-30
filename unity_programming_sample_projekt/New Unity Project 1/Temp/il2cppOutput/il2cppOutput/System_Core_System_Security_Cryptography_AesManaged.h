@@ -3,6 +3,6 @@
 // System.Security.Cryptography.Aes
 #include "System_Core_System_Security_Cryptography_Aes.h"
 // System.Security.Cryptography.AesManaged
-struct  AesManaged_t633  : public Aes_t632
+struct  AesManaged_t810  : public Aes_t809
 {
 };

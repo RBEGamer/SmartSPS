@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.SerializeField
-struct  SerializeField_t435  : public Attribute_t434
+struct  SerializeField_t438  : public Attribute_t437
 {
 };

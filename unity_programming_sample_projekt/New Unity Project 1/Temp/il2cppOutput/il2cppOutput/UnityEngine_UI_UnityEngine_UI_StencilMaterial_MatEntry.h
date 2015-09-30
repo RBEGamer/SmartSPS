@@ -11,7 +11,7 @@ struct Material_t19;
 // UnityEngine.Rendering.ColorWriteMask
 #include "UnityEngine_UnityEngine_Rendering_ColorWriteMask.h"
 // UnityEngine.UI.StencilMaterial/MatEntry
-struct  MatEntry_t235  : public Object_t
+struct  MatEntry_t239  : public Object_t
 {
 	// UnityEngine.Material UnityEngine.UI.StencilMaterial/MatEntry::baseMat
 	Material_t19 * ___baseMat_0;

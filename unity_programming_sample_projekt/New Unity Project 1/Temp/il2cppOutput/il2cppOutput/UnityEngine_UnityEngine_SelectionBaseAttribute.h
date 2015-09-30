@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.SelectionBaseAttribute
-struct  SelectionBaseAttribute_t548  : public Attribute_t434
+struct  SelectionBaseAttribute_t551  : public Attribute_t437
 {
 };

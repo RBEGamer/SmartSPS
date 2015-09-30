@@ -6,4 +6,4 @@
 
 
 // System.Void System.Net.HttpVersion::.cctor()
-extern "C" void HttpVersion__cctor_m4329 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HttpVersion__cctor_m5570 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

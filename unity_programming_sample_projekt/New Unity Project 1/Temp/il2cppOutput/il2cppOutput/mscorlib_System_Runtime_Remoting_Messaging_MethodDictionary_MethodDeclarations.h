@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator
-struct DictionaryEnumerator_t1353;
+struct DictionaryEnumerator_t1609;
 // System.Runtime.Remoting.Messaging.MethodDictionary
-struct MethodDictionary_t1347;
+struct MethodDictionary_t1603;
 // System.Object
 struct Object_t;
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::.ctor(System.Runtime.Remoting.Messaging.MethodDictionary)
-extern "C" void DictionaryEnumerator__ctor_m8122 (DictionaryEnumerator_t1353 * __this, MethodDictionary_t1347 * ___methodDictionary, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DictionaryEnumerator__ctor_m9787 (DictionaryEnumerator_t1609 * __this, MethodDictionary_t1603 * ___methodDictionary, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Current()
-extern "C" Object_t * DictionaryEnumerator_get_Current_m8123 (DictionaryEnumerator_t1353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DictionaryEnumerator_get_Current_m9788 (DictionaryEnumerator_t1609 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::MoveNext()
-extern "C" bool DictionaryEnumerator_MoveNext_m8124 (DictionaryEnumerator_t1353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool DictionaryEnumerator_MoveNext_m9789 (DictionaryEnumerator_t1609 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.DictionaryEntry System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Entry()
-extern "C" DictionaryEntry_t987  DictionaryEnumerator_get_Entry_m8125 (DictionaryEnumerator_t1353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DictionaryEntry_t1240  DictionaryEnumerator_get_Entry_m9790 (DictionaryEnumerator_t1609 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Key()
-extern "C" Object_t * DictionaryEnumerator_get_Key_m8126 (DictionaryEnumerator_t1353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DictionaryEnumerator_get_Key_m9791 (DictionaryEnumerator_t1609 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Remoting.Messaging.MethodDictionary/DictionaryEnumerator::get_Value()
-extern "C" Object_t * DictionaryEnumerator_get_Value_m8127 (DictionaryEnumerator_t1353 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * DictionaryEnumerator_get_Value_m9792 (DictionaryEnumerator_t1609 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -8,4 +8,4 @@
 #include "mscorlib_Mono_Globalization_Unicode_CodePointIndexer_TableRa.h"
 
 // System.Void Mono.Globalization.Unicode.CodePointIndexer/TableRange::.ctor(System.Int32,System.Int32,System.Int32)
-extern "C" void TableRange__ctor_m6060 (TableRange_t1045 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TableRange__ctor_m7665 (TableRange_t1305 * __this, int32_t ___start, int32_t ___end, int32_t ___indexStart, const MethodInfo* method) IL2CPP_METHOD_ATTR;

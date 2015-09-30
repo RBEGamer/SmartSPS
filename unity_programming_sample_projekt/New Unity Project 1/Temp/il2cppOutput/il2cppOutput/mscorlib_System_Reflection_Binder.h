@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.Binder
-struct Binder_t603;
+struct Binder_t606;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Reflection.Binder
-struct  Binder_t603  : public Object_t
+struct  Binder_t606  : public Object_t
 {
 };
-struct Binder_t603_StaticFields{
+struct Binder_t606_StaticFields{
 	// System.Reflection.Binder System.Reflection.Binder::default_binder
-	Binder_t603 * ___default_binder_0;
+	Binder_t606 * ___default_binder_0;
 };

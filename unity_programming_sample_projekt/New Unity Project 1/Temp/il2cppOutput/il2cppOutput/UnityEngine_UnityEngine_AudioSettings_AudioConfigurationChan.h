@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -13,6 +13,6 @@ struct Object_t;
 // System.Boolean
 #include "mscorlib_System_Boolean.h"
 // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
-struct  AudioConfigurationChangeHandler_t474  : public MulticastDelegate_t185
+struct  AudioConfigurationChangeHandler_t477  : public MulticastDelegate_t190
 {
 };

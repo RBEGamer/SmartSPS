@@ -4,27 +4,16 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array
-struct Array_t;
-// System.Object
-struct Object_t;
-// System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_56.h"
-// System.Security.Cryptography.X509Certificates.X509ChainStatus
-#include "System_System_Security_Cryptography_X509Certificates_X509Cha_5.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m16267_gshared (InternalEnumerator_1_t2180 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m16267(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2180 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16267_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16268_gshared (InternalEnumerator_1_t2180 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16268(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2180 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16268_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m16269_gshared (InternalEnumerator_1_t2180 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m16269(__this, method) (( void (*) (InternalEnumerator_1_t2180 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16269_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m16270_gshared (InternalEnumerator_1_t2180 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m16270(__this, method) (( bool (*) (InternalEnumerator_1_t2180 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16270_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Security.Cryptography.X509Certificates.X509ChainStatus>::get_Current()
-extern "C" X509ChainStatus_t893  InternalEnumerator_1_get_Current_m16271_gshared (InternalEnumerator_1_t2180 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m16271(__this, method) (( X509ChainStatus_t893  (*) (InternalEnumerator_1_t2180 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16271_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m18147(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2439 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11819_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18148(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2439 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11821_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::Dispose()
+#define InternalEnumerator_1_Dispose_m18149(__this, method) (( void (*) (InternalEnumerator_1_t2439 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11823_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m18150(__this, method) (( bool (*) (InternalEnumerator_1_t2439 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11825_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Security.Cryptography.KeySizes>::get_Current()
+#define InternalEnumerator_1_get_Current_m18151(__this, method) (( KeySizes_t821 * (*) (InternalEnumerator_1_t2439 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11827_gshared)(__this, method)

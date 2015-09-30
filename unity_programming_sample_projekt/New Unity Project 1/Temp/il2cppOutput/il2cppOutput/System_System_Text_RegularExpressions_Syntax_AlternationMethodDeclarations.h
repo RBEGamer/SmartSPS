@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Syntax.Alternation
-struct Alternation_t965;
+struct Alternation_t1218;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection
-struct ExpressionCollection_t952;
+struct ExpressionCollection_t1205;
 // System.Text.RegularExpressions.Syntax.Expression
-struct Expression_t953;
+struct Expression_t1206;
 // System.Text.RegularExpressions.ICompiler
-struct ICompiler_t989;
+struct ICompiler_t1243;
 
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::.ctor()
-extern "C" void Alternation__ctor_m4976 (Alternation_t965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Alternation__ctor_m6517 (Alternation_t1218 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Syntax.ExpressionCollection System.Text.RegularExpressions.Syntax.Alternation::get_Alternatives()
-extern "C" ExpressionCollection_t952 * Alternation_get_Alternatives_m4977 (Alternation_t965 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ExpressionCollection_t1205 * Alternation_get_Alternatives_m6518 (Alternation_t1218 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::AddAlternative(System.Text.RegularExpressions.Syntax.Expression)
-extern "C" void Alternation_AddAlternative_m4978 (Alternation_t965 * __this, Expression_t953 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Alternation_AddAlternative_m6519 (Alternation_t1218 * __this, Expression_t1206 * ___e, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::Compile(System.Text.RegularExpressions.ICompiler,System.Boolean)
-extern "C" void Alternation_Compile_m4979 (Alternation_t965 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Alternation_Compile_m6520 (Alternation_t1218 * __this, Object_t * ___cmp, bool ___reverse, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Syntax.Alternation::GetWidth(System.Int32&,System.Int32&)
-extern "C" void Alternation_GetWidth_m4980 (Alternation_t965 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Alternation_GetWidth_m6521 (Alternation_t1218 * __this, int32_t* ___min, int32_t* ___max, const MethodInfo* method) IL2CPP_METHOD_ATTR;

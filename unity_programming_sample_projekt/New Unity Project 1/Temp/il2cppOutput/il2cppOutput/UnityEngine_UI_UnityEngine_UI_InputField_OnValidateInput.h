@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -15,6 +15,6 @@ struct Object_t;
 // System.Char
 #include "mscorlib_System_Char.h"
 // UnityEngine.UI.InputField/OnValidateInput
-struct  OnValidateInput_t184  : public MulticastDelegate_t185
+struct  OnValidateInput_t189  : public MulticastDelegate_t190
 {
 };

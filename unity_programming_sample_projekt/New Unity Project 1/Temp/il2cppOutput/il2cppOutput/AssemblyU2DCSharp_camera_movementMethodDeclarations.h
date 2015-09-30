@@ -11,5 +11,7 @@ struct camera_movement_t8;
 extern "C" void camera_movement__ctor_m13 (camera_movement_t8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void camera_movement::Start()
 extern "C" void camera_movement_Start_m14 (camera_movement_t8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void camera_movement::reset_view()
+extern "C" void camera_movement_reset_view_m15 (camera_movement_t8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void camera_movement::FixedUpdate()
-extern "C" void camera_movement_FixedUpdate_m15 (camera_movement_t8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void camera_movement_FixedUpdate_m16 (camera_movement_t8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

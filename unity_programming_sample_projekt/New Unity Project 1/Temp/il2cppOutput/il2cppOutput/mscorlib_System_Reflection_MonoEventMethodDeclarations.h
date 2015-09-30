@@ -13,33 +13,33 @@ struct Type_t;
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t320;
+struct ObjectU5BU5D_t61;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t584;
+struct SerializationInfo_t587;
 // System.Reflection.EventAttributes
 #include "mscorlib_System_Reflection_EventAttributes.h"
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.Reflection.MonoEvent::.ctor()
-extern "C" void MonoEvent__ctor_m7748 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEvent__ctor_m9409 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.EventAttributes System.Reflection.MonoEvent::get_Attributes()
-extern "C" int32_t MonoEvent_get_Attributes_m7749 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t MonoEvent_get_Attributes_m9410 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Reflection.MonoEvent::GetAddMethod(System.Boolean)
-extern "C" MethodInfo_t * MonoEvent_GetAddMethod_m7750 (MonoEvent_t * __this, bool ___nonPublic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MethodInfo_t * MonoEvent_GetAddMethod_m9411 (MonoEvent_t * __this, bool ___nonPublic, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoEvent::get_DeclaringType()
-extern "C" Type_t * MonoEvent_get_DeclaringType_m7751 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoEvent_get_DeclaringType_m9412 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.MonoEvent::get_ReflectedType()
-extern "C" Type_t * MonoEvent_get_ReflectedType_m7752 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Type_t * MonoEvent_get_ReflectedType_m9413 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.MonoEvent::get_Name()
-extern "C" String_t* MonoEvent_get_Name_m7753 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MonoEvent_get_Name_m9414 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Reflection.MonoEvent::ToString()
-extern "C" String_t* MonoEvent_ToString_m7754 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* MonoEvent_ToString_m9415 (MonoEvent_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.MonoEvent::IsDefined(System.Type,System.Boolean)
-extern "C" bool MonoEvent_IsDefined_m7755 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool MonoEvent_IsDefined_m9416 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Boolean)
-extern "C" ObjectU5BU5D_t320* MonoEvent_GetCustomAttributes_m7756 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t61* MonoEvent_GetCustomAttributes_m9417 (MonoEvent_t * __this, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Reflection.MonoEvent::GetCustomAttributes(System.Type,System.Boolean)
-extern "C" ObjectU5BU5D_t320* MonoEvent_GetCustomAttributes_m7757 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ObjectU5BU5D_t61* MonoEvent_GetCustomAttributes_m9418 (MonoEvent_t * __this, Type_t * ___attributeType, bool ___inherit, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Reflection.MonoEvent::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void MonoEvent_GetObjectData_m7758 (MonoEvent_t * __this, SerializationInfo_t584 * ___info, StreamingContext_t585  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoEvent_GetObjectData_m9419 (MonoEvent_t * __this, SerializationInfo_t587 * ___info, StreamingContext_t588  ___context, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Math.BigInteger
-struct BigInteger_t653;
+struct BigInteger_t826;
 // Mono.Math.Prime.ConfidenceFactor
 #include "Mono_Security_Mono_Math_Prime_ConfidenceFactor.h"
 
 // System.Int32 Mono.Math.Prime.PrimalityTests::GetSPPRounds(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" int32_t PrimalityTests_GetSPPRounds_m3290 (Object_t * __this /* static, unused */, BigInteger_t653 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t PrimalityTests_GetSPPRounds_m4022 (Object_t * __this /* static, unused */, BigInteger_t826 * ___bi, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Math.Prime.PrimalityTests::RabinMillerTest(Mono.Math.BigInteger,Mono.Math.Prime.ConfidenceFactor)
-extern "C" bool PrimalityTests_RabinMillerTest_m3291 (Object_t * __this /* static, unused */, BigInteger_t653 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool PrimalityTests_RabinMillerTest_m4023 (Object_t * __this /* static, unused */, BigInteger_t826 * ___n, int32_t ___confidence, const MethodInfo* method) IL2CPP_METHOD_ATTR;

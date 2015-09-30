@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt16[]
-struct UInt16U5BU5D_t866;
+struct UInt16U5BU5D_t1107;
 // System.Net.IPv6Address
-struct IPv6Address_t867;
+struct IPv6Address_t1108;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Net.IPv6Address
-struct  IPv6Address_t867  : public Object_t
+struct  IPv6Address_t1108  : public Object_t
 {
 	// System.UInt16[] System.Net.IPv6Address::address
-	UInt16U5BU5D_t866* ___address_0;
+	UInt16U5BU5D_t1107* ___address_0;
 	// System.Int32 System.Net.IPv6Address::prefixLength
 	int32_t ___prefixLength_1;
 	// System.Int64 System.Net.IPv6Address::scopeId
 	int64_t ___scopeId_2;
 };
-struct IPv6Address_t867_StaticFields{
+struct IPv6Address_t1108_StaticFields{
 	// System.Net.IPv6Address System.Net.IPv6Address::Loopback
-	IPv6Address_t867 * ___Loopback_3;
+	IPv6Address_t1108 * ___Loopback_3;
 	// System.Net.IPv6Address System.Net.IPv6Address::Unspecified
-	IPv6Address_t867 * ___Unspecified_4;
+	IPv6Address_t1108 * ___Unspecified_4;
 };

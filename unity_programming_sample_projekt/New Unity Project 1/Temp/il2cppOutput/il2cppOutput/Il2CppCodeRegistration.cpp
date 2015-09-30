@@ -14,6 +14,7 @@
 #include <assert.h>
 
 extern const methodPointerType g_MethodPointers[];
+extern const methodPointerType * g_PInvokeWrapperPointers[];
 extern const methodPointerType g_DelegateWrappersManagedToNative[];
 extern const Il2CppMarshalingFunctions g_MarshalingFunctions[];
 extern const methodPointerType g_Il2CppGenericMethodPointers[];
@@ -21,19 +22,19 @@ extern const InvokerMethod g_Il2CppInvokerPointers[];
 extern const CustomAttributesCacheGenerator g_AttributeGenerators[];
 const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	9865,
+	11474,
 	g_MethodPointers,
-	0,
-	NULL,
-	45,
+	2,
+	g_PInvokeWrapperPointers,
+	56,
 	g_DelegateWrappersManagedToNative,
-	66,
+	74,
 	g_MarshalingFunctions,
-	3231,
+	3639,
 	g_Il2CppGenericMethodPointers,
-	1436,
+	1578,
 	g_Il2CppInvokerPointers,
-	2027,
+	2102,
 	g_AttributeGenerators,
 };
 extern const Il2CppMetadataRegistration g_MetadataRegistration;

@@ -1,24 +1,24 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SendMouseEvents/HitInfo[]
-struct HitInfoU5BU5D_t538;
+struct HitInfoU5BU5D_t541;
 // UnityEngine.Camera[]
-struct CameraU5BU5D_t539;
+struct CameraU5BU5D_t542;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SendMouseEvents
-struct  SendMouseEvents_t537  : public Object_t
+struct  SendMouseEvents_t540  : public Object_t
 {
 };
-struct SendMouseEvents_t537_StaticFields{
+struct SendMouseEvents_t540_StaticFields{
 	// System.Boolean UnityEngine.SendMouseEvents::s_MouseUsed
 	bool ___s_MouseUsed_3;
 	// UnityEngine.SendMouseEvents/HitInfo[] UnityEngine.SendMouseEvents::m_LastHit
-	HitInfoU5BU5D_t538* ___m_LastHit_4;
+	HitInfoU5BU5D_t541* ___m_LastHit_4;
 	// UnityEngine.SendMouseEvents/HitInfo[] UnityEngine.SendMouseEvents::m_MouseDownHit
-	HitInfoU5BU5D_t538* ___m_MouseDownHit_5;
+	HitInfoU5BU5D_t541* ___m_MouseDownHit_5;
 	// UnityEngine.SendMouseEvents/HitInfo[] UnityEngine.SendMouseEvents::m_CurrentHit
-	HitInfoU5BU5D_t538* ___m_CurrentHit_6;
+	HitInfoU5BU5D_t541* ___m_CurrentHit_6;
 	// UnityEngine.Camera[] UnityEngine.SendMouseEvents::m_Cameras
-	CameraU5BU5D_t539* ___m_Cameras_7;
+	CameraU5BU5D_t542* ___m_Cameras_7;
 };

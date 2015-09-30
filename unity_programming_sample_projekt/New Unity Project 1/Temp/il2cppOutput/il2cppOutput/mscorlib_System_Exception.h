@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IntPtr[]
-struct IntPtrU5BU5D_t577;
+struct IntPtrU5BU5D_t580;
 // System.Exception
-struct Exception_t32;
+struct Exception_t33;
 // System.String
 struct String_t;
 // System.Collections.IDictionary
-struct IDictionary_t921;
+struct IDictionary_t1176;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Exception
-struct  Exception_t32  : public Object_t
+struct  Exception_t33  : public Object_t
 {
 	// System.IntPtr[] System.Exception::trace_ips
-	IntPtrU5BU5D_t577* ___trace_ips_0;
+	IntPtrU5BU5D_t580* ___trace_ips_0;
 	// System.Exception System.Exception::inner_exception
-	Exception_t32 * ___inner_exception_1;
+	Exception_t33 * ___inner_exception_1;
 	// System.String System.Exception::message
 	String_t* ___message_2;
 	// System.String System.Exception::help_link

@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<System.Boolean>
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_9.h"
-// System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Boolean>
-struct  DefaultComparer_t2176  : public EqualityComparer_1_t2174
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UILineInfo>
+struct  DefaultComparer_t2375  : public EqualityComparer_1_t2374
 {
 };

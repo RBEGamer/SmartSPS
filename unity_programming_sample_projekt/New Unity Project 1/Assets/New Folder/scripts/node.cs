@@ -13,7 +13,7 @@ public class node : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		GameObject.Find("upload_manager").GetComponent<remote_uploader>().nodes.Add(this);
 		if(node_id == -1){
 		node_id = id_creator.get_node_id();//get unique id

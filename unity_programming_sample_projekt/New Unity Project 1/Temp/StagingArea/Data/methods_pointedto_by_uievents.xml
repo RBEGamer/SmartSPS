@@ -56,10 +56,17 @@
 			<method name="close_bar"/>
 			<method name="toggle"/>
 			<method name="close_bar"/>
+			<method name="toggle"/>
 		</type>
 		<type fullname="remote_uploader">
+			<method name="clear_field"/>
 			<method name="start_load"/>
+			<method name="start_load"/>
+			<method name="clear_db"/>
 			<method name="start_upload"/>
+		</type>
+		<type fullname="camera_movement">
+			<method name="reset_view"/>
 		</type>
 	</assembly>
 </linker>

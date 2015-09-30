@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.DispIdAttribute
-struct DispIdAttribute_t1294;
+struct DispIdAttribute_t1553;
 
 // System.Void System.Runtime.InteropServices.DispIdAttribute::.ctor(System.Int32)
-extern "C" void DispIdAttribute__ctor_m7909 (DispIdAttribute_t1294 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DispIdAttribute__ctor_m9570 (DispIdAttribute_t1553 * __this, int32_t ___dispId, const MethodInfo* method) IL2CPP_METHOD_ATTR;

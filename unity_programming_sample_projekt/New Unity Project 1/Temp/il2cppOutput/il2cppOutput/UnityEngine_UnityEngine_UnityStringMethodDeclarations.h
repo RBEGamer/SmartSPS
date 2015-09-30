@@ -7,7 +7,7 @@
 // System.String
 struct String_t;
 // System.Object[]
-struct ObjectU5BU5D_t320;
+struct ObjectU5BU5D_t61;
 
 // System.String UnityEngine.UnityString::Format(System.String,System.Object[])
-extern "C" String_t* UnityString_Format_m2485 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t320* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UnityString_Format_m2497 (Object_t * __this /* static, unused */, String_t* ___fmt, ObjectU5BU5D_t61* ___args, const MethodInfo* method) IL2CPP_METHOD_ATTR;

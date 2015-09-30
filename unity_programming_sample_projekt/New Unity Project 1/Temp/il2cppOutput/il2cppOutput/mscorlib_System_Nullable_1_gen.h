@@ -5,10 +5,10 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Nullable`1<System.TimeSpan>
-struct  Nullable_1_t1666 
+struct  Nullable_1_t1913 
 {
 	// T System.Nullable`1<System.TimeSpan>::value
-	TimeSpan_t896  ___value_0;
+	TimeSpan_t1151  ___value_0;
 	// System.Boolean System.Nullable`1<System.TimeSpan>::has_value
 	bool ___has_value_1;
 };

@@ -5,16 +5,16 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.Generic.GenericEqualityComparer`1<System.Object>
-struct GenericEqualityComparer_1_t2204;
+struct GenericEqualityComparer_1_t2494;
 // System.Object
 struct Object_t;
 
 // System.Void System.Collections.Generic.GenericEqualityComparer`1<System.Object>::.ctor()
-extern "C" void GenericEqualityComparer_1__ctor_m16384_gshared (GenericEqualityComparer_1_t2204 * __this, const MethodInfo* method);
-#define GenericEqualityComparer_1__ctor_m16384(__this, method) (( void (*) (GenericEqualityComparer_1_t2204 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m16384_gshared)(__this, method)
+extern "C" void GenericEqualityComparer_1__ctor_m18600_gshared (GenericEqualityComparer_1_t2494 * __this, const MethodInfo* method);
+#define GenericEqualityComparer_1__ctor_m18600(__this, method) (( void (*) (GenericEqualityComparer_1_t2494 *, const MethodInfo*))GenericEqualityComparer_1__ctor_m18600_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.GenericEqualityComparer`1<System.Object>::GetHashCode(T)
-extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m16385_gshared (GenericEqualityComparer_1_t2204 * __this, Object_t * ___obj, const MethodInfo* method);
-#define GenericEqualityComparer_1_GetHashCode_m16385(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t2204 *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m16385_gshared)(__this, ___obj, method)
+extern "C" int32_t GenericEqualityComparer_1_GetHashCode_m18601_gshared (GenericEqualityComparer_1_t2494 * __this, Object_t * ___obj, const MethodInfo* method);
+#define GenericEqualityComparer_1_GetHashCode_m18601(__this, ___obj, method) (( int32_t (*) (GenericEqualityComparer_1_t2494 *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_GetHashCode_m18601_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.GenericEqualityComparer`1<System.Object>::Equals(T,T)
-extern "C" bool GenericEqualityComparer_1_Equals_m16386_gshared (GenericEqualityComparer_1_t2204 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define GenericEqualityComparer_1_Equals_m16386(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t2204 *, Object_t *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_Equals_m16386_gshared)(__this, ___x, ___y, method)
+extern "C" bool GenericEqualityComparer_1_Equals_m18602_gshared (GenericEqualityComparer_1_t2494 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define GenericEqualityComparer_1_Equals_m18602(__this, ___x, ___y, method) (( bool (*) (GenericEqualityComparer_1_t2494 *, Object_t *, Object_t *, const MethodInfo*))GenericEqualityComparer_1_Equals_m18602_gshared)(__this, ___x, ___y, method)

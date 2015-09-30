@@ -16,15 +16,17 @@
 extern Il2CppAssembly g_AssemblyU2DCSharp_Assembly;
 extern Il2CppAssembly g_UnityEngine_UI_Assembly;
 extern Il2CppAssembly g_UnityEngine_Assembly;
+extern Il2CppAssembly g_System_Xml_Assembly;
 extern Il2CppAssembly g_System_Core_Assembly;
 extern Il2CppAssembly g_Mono_Security_Assembly;
 extern Il2CppAssembly g_System_Assembly;
 extern Il2CppAssembly g_mscorlib_Assembly;
-extern Il2CppAssembly* g_Assemblies[7] = 
+extern Il2CppAssembly* g_Assemblies[8] = 
 {
 	&g_AssemblyU2DCSharp_Assembly,
 	&g_UnityEngine_UI_Assembly,
 	&g_UnityEngine_Assembly,
+	&g_System_Xml_Assembly,
 	&g_System_Core_Assembly,
 	&g_Mono_Security_Assembly,
 	&g_System_Assembly,

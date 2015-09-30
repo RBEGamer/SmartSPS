@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.MulticastNotSupportedException
-struct  MulticastNotSupportedException_t1597  : public SystemException_t998
+struct  MulticastNotSupportedException_t1849  : public SystemException_t732
 {
 };

@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.RectMask2D[]
-struct RectMask2DU5BU5D_t1934;
+// UnityEngine.UI.Graphic[]
+struct GraphicU5BU5D_t2165;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
-struct  List_1_t212  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
+struct  List_1_t167  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_items
-	RectMask2DU5BU5D_t1934* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_items
+	GraphicU5BU5D_t2165* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_version
 	int32_t ____version_3;
 };
-struct List_1_t212_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>::EmptyArray
-	RectMask2DU5BU5D_t1934* ___EmptyArray_4;
+struct List_1_t167_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::EmptyArray
+	GraphicU5BU5D_t2165* ___EmptyArray_4;
 };

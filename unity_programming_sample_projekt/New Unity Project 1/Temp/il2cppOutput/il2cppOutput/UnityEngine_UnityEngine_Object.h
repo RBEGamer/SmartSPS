@@ -5,7 +5,7 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.Object
-struct  Object_t38  : public Object_t
+struct  Object_t39  : public Object_t
 {
 	// System.Int32 UnityEngine.Object::m_InstanceID
 	int32_t ___m_InstanceID_0;
@@ -13,7 +13,7 @@ struct  Object_t38  : public Object_t
 	IntPtr_t ___m_CachedPtr_1;
 };
 // Native definition for marshalling of: UnityEngine.Object
-struct Object_t38_marshaled
+struct Object_t39_marshaled
 {
 	int32_t ___m_InstanceID_0;
 	intptr_t ___m_CachedPtr_1;

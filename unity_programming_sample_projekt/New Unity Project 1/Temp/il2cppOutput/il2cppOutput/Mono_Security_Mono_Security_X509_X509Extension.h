@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // Mono.Security.ASN1
-struct ASN1_t659;
+struct ASN1_t832;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.X509Extension
-struct  X509Extension_t695  : public Object_t
+struct  X509Extension_t867  : public Object_t
 {
 	// System.String Mono.Security.X509.X509Extension::extnOid
 	String_t* ___extnOid_0;
 	// System.Boolean Mono.Security.X509.X509Extension::extnCritical
 	bool ___extnCritical_1;
 	// Mono.Security.ASN1 Mono.Security.X509.X509Extension::extnValue
-	ASN1_t659 * ___extnValue_2;
+	ASN1_t832 * ___extnValue_2;
 };

@@ -3,11 +3,11 @@
 // System.String
 struct String_t;
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1305;
+struct IActivator_t1563;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Activation.AppDomainLevelActivator
-struct  AppDomainLevelActivator_t1306  : public Object_t
+struct  AppDomainLevelActivator_t1564  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Activation.AppDomainLevelActivator::_activationUrl
 	String_t* ____activationUrl_0;

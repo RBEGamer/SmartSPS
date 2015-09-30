@@ -5,10 +5,10 @@
 // System.Runtime.InteropServices.GCHandle
 #include "mscorlib_System_Runtime_InteropServices_GCHandle.h"
 // System.WeakReference
-struct  WeakReference_t1381  : public Object_t
+struct  WeakReference_t1258  : public Object_t
 {
 	// System.Boolean System.WeakReference::isLongReference
 	bool ___isLongReference_0;
 	// System.Runtime.InteropServices.GCHandle System.WeakReference::gcHandle
-	GCHandle_t1295  ___gcHandle_1;
+	GCHandle_t1021  ___gcHandle_1;
 };

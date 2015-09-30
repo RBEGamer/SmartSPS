@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t660;
+struct ArrayList_t695;
 // System.Threading.Timer
-struct Timer_t1333;
+struct Timer_t1590;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Lifetime.LeaseManager
-struct  LeaseManager_t1332  : public Object_t
+struct  LeaseManager_t1589  : public Object_t
 {
 	// System.Collections.ArrayList System.Runtime.Remoting.Lifetime.LeaseManager::_objects
-	ArrayList_t660 * ____objects_0;
+	ArrayList_t695 * ____objects_0;
 	// System.Threading.Timer System.Runtime.Remoting.Lifetime.LeaseManager::_timer
-	Timer_t1333 * ____timer_1;
+	Timer_t1590 * ____timer_1;
 };

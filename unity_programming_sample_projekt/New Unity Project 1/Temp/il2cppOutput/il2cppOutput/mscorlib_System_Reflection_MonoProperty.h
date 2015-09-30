@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Reflection.MonoProperty/GetterAdapter
-struct GetterAdapter_t1265;
+struct GetterAdapter_t1524;
 // System.Reflection.PropertyInfo
 #include "mscorlib_System_Reflection_PropertyInfo.h"
 // System.IntPtr
@@ -18,9 +18,9 @@ struct  MonoProperty_t  : public PropertyInfo_t
 	// System.IntPtr System.Reflection.MonoProperty::prop
 	IntPtr_t ___prop_1;
 	// System.Reflection.MonoPropertyInfo System.Reflection.MonoProperty::info
-	MonoPropertyInfo_t1263  ___info_2;
+	MonoPropertyInfo_t1522  ___info_2;
 	// System.Reflection.PInfo System.Reflection.MonoProperty::cached
 	int32_t ___cached_3;
 	// System.Reflection.MonoProperty/GetterAdapter System.Reflection.MonoProperty::cached_getter
-	GetterAdapter_t1265 * ___cached_getter_4;
+	GetterAdapter_t1524 * ___cached_getter_4;
 };

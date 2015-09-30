@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Specialized.ListDictionary
-struct ListDictionary_t836;
+struct ListDictionary_t999;
 // System.Collections.Specialized.ListDictionary/DictionaryNode
-struct DictionaryNode_t837;
+struct DictionaryNode_t1000;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator
-struct  DictionaryNodeEnumerator_t838  : public Object_t
+struct  DictionaryNodeEnumerator_t1001  : public Object_t
 {
 	// System.Collections.Specialized.ListDictionary System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator::dict
-	ListDictionary_t836 * ___dict_0;
+	ListDictionary_t999 * ___dict_0;
 	// System.Boolean System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator::isAtStart
 	bool ___isAtStart_1;
 	// System.Collections.Specialized.ListDictionary/DictionaryNode System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator::current
-	DictionaryNode_t837 * ___current_2;
+	DictionaryNode_t1000 * ___current_2;
 	// System.Int32 System.Collections.Specialized.ListDictionary/DictionaryNodeEnumerator::version
 	int32_t ___version_3;
 };

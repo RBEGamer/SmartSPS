@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct EqualityComparer_1_t1774;
+// System.Collections.Generic.EqualityComparer`1<remote_uploader/node_database_information>
+struct EqualityComparer_1_t1988;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>
-struct  EqualityComparer_1_t1774  : public Object_t
+// System.Collections.Generic.EqualityComparer`1<remote_uploader/node_database_information>
+struct  EqualityComparer_1_t1988  : public Object_t
 {
 };
-struct EqualityComparer_1_t1774_StaticFields{
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.RaycastResult>::_default
-	EqualityComparer_1_t1774 * ____default_0;
+struct EqualityComparer_1_t1988_StaticFields{
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<remote_uploader/node_database_information>::_default
+	EqualityComparer_1_t1988 * ____default_0;
 };

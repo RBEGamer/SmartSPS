@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.YieldInstruction
-struct  YieldInstruction_t398  : public Object_t
+struct  YieldInstruction_t401  : public Object_t
 {
 };
 // Native definition for marshalling of: UnityEngine.YieldInstruction
-struct YieldInstruction_t398_marshaled
+struct YieldInstruction_t401_marshaled
 {
 };

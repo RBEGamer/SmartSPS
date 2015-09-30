@@ -1,52 +1,52 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Object[]
-struct ObjectU5BU5D_t320;
+struct ObjectU5BU5D_t61;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct LogicalCallContext_t1350;
+struct LogicalCallContext_t1606;
 // System.Object
 struct Object_t;
 // System.String
 struct String_t;
 // System.Exception
-struct Exception_t32;
+struct Exception_t33;
 // System.Reflection.MethodBase
-struct MethodBase_t610;
+struct MethodBase_t613;
 // System.Type[]
-struct TypeU5BU5D_t582;
+struct TypeU5BU5D_t585;
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
-struct MethodReturnDictionary_t1355;
+struct MethodReturnDictionary_t1611;
 // System.Runtime.Remoting.Messaging.ArgInfo
-struct ArgInfo_t1337;
+struct ArgInfo_t1594;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.ReturnMessage
-struct  ReturnMessage_t1360  : public Object_t
+struct  ReturnMessage_t1616  : public Object_t
 {
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_outArgs
-	ObjectU5BU5D_t320* ____outArgs_0;
+	ObjectU5BU5D_t61* ____outArgs_0;
 	// System.Object[] System.Runtime.Remoting.Messaging.ReturnMessage::_args
-	ObjectU5BU5D_t320* ____args_1;
+	ObjectU5BU5D_t61* ____args_1;
 	// System.Int32 System.Runtime.Remoting.Messaging.ReturnMessage::_outArgsCount
 	int32_t ____outArgsCount_2;
 	// System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.ReturnMessage::_callCtx
-	LogicalCallContext_t1350 * ____callCtx_3;
+	LogicalCallContext_t1606 * ____callCtx_3;
 	// System.Object System.Runtime.Remoting.Messaging.ReturnMessage::_returnValue
 	Object_t * ____returnValue_4;
 	// System.String System.Runtime.Remoting.Messaging.ReturnMessage::_uri
 	String_t* ____uri_5;
 	// System.Exception System.Runtime.Remoting.Messaging.ReturnMessage::_exception
-	Exception_t32 * ____exception_6;
+	Exception_t33 * ____exception_6;
 	// System.Reflection.MethodBase System.Runtime.Remoting.Messaging.ReturnMessage::_methodBase
-	MethodBase_t610 * ____methodBase_7;
+	MethodBase_t613 * ____methodBase_7;
 	// System.String System.Runtime.Remoting.Messaging.ReturnMessage::_methodName
 	String_t* ____methodName_8;
 	// System.Type[] System.Runtime.Remoting.Messaging.ReturnMessage::_methodSignature
-	TypeU5BU5D_t582* ____methodSignature_9;
+	TypeU5BU5D_t585* ____methodSignature_9;
 	// System.String System.Runtime.Remoting.Messaging.ReturnMessage::_typeName
 	String_t* ____typeName_10;
 	// System.Runtime.Remoting.Messaging.MethodReturnDictionary System.Runtime.Remoting.Messaging.ReturnMessage::_properties
-	MethodReturnDictionary_t1355 * ____properties_11;
+	MethodReturnDictionary_t1611 * ____properties_11;
 	// System.Runtime.Remoting.Messaging.ArgInfo System.Runtime.Remoting.Messaging.ReturnMessage::_inArgInfo
-	ArgInfo_t1337 * ____inArgInfo_12;
+	ArgInfo_t1594 * ____inArgInfo_12;
 };

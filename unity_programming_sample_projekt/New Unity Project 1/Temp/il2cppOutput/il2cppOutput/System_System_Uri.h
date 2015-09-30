@@ -3,15 +3,15 @@
 // System.String
 struct String_t;
 // System.Uri/UriScheme[]
-struct UriSchemeU5BU5D_t976;
+struct UriSchemeU5BU5D_t1229;
 // System.UriParser
-struct UriParser_t973;
+struct UriParser_t1226;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t198;
+struct Dictionary_2_t202;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Uri
-struct  Uri_t816  : public Object_t
+struct  Uri_t711  : public Object_t
 {
 	// System.Boolean System.Uri::isUnixFilePath
 	bool ___isUnixFilePath_0;
@@ -43,42 +43,48 @@ struct  Uri_t816  : public Object_t
 	String_t* ___cachedAbsoluteUri_13;
 	// System.String System.Uri::cachedToString
 	String_t* ___cachedToString_14;
+	// System.String System.Uri::cachedLocalPath
+	String_t* ___cachedLocalPath_15;
 	// System.Int32 System.Uri::cachedHashCode
-	int32_t ___cachedHashCode_15;
+	int32_t ___cachedHashCode_16;
 	// System.UriParser System.Uri::parser
-	UriParser_t973 * ___parser_29;
+	UriParser_t1226 * ___parser_30;
 };
-struct Uri_t816_StaticFields{
+struct Uri_t711_StaticFields{
 	// System.String System.Uri::hexUpperChars
-	String_t* ___hexUpperChars_16;
+	String_t* ___hexUpperChars_17;
 	// System.String System.Uri::SchemeDelimiter
-	String_t* ___SchemeDelimiter_17;
+	String_t* ___SchemeDelimiter_18;
 	// System.String System.Uri::UriSchemeFile
-	String_t* ___UriSchemeFile_18;
+	String_t* ___UriSchemeFile_19;
 	// System.String System.Uri::UriSchemeFtp
-	String_t* ___UriSchemeFtp_19;
+	String_t* ___UriSchemeFtp_20;
 	// System.String System.Uri::UriSchemeGopher
-	String_t* ___UriSchemeGopher_20;
+	String_t* ___UriSchemeGopher_21;
 	// System.String System.Uri::UriSchemeHttp
-	String_t* ___UriSchemeHttp_21;
+	String_t* ___UriSchemeHttp_22;
 	// System.String System.Uri::UriSchemeHttps
-	String_t* ___UriSchemeHttps_22;
+	String_t* ___UriSchemeHttps_23;
 	// System.String System.Uri::UriSchemeMailto
-	String_t* ___UriSchemeMailto_23;
+	String_t* ___UriSchemeMailto_24;
 	// System.String System.Uri::UriSchemeNews
-	String_t* ___UriSchemeNews_24;
+	String_t* ___UriSchemeNews_25;
 	// System.String System.Uri::UriSchemeNntp
-	String_t* ___UriSchemeNntp_25;
+	String_t* ___UriSchemeNntp_26;
 	// System.String System.Uri::UriSchemeNetPipe
-	String_t* ___UriSchemeNetPipe_26;
+	String_t* ___UriSchemeNetPipe_27;
 	// System.String System.Uri::UriSchemeNetTcp
-	String_t* ___UriSchemeNetTcp_27;
+	String_t* ___UriSchemeNetTcp_28;
 	// System.Uri/UriScheme[] System.Uri::schemes
-	UriSchemeU5BU5D_t976* ___schemes_28;
+	UriSchemeU5BU5D_t1229* ___schemes_29;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map12
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map12_31;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map13
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map13_32;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map14
-	Dictionary_2_t198 * ___U3CU3Ef__switchU24map14_30;
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map14_33;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map15
-	Dictionary_2_t198 * ___U3CU3Ef__switchU24map15_31;
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map15_34;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Uri::<>f__switch$map16
-	Dictionary_2_t198 * ___U3CU3Ef__switchU24map16_32;
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map16_35;
 };

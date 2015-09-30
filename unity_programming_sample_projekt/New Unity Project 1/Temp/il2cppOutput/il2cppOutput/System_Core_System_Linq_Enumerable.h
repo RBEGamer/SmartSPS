@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Linq.Enumerable
-struct  Enumerable_t631  : public Object_t
+struct  Enumerable_t808  : public Object_t
 {
 };

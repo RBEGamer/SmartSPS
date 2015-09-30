@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.ExecuteInEditMode
-struct  ExecuteInEditMode_t515  : public Attribute_t434
+struct  ExecuteInEditMode_t518  : public Attribute_t437
 {
 };

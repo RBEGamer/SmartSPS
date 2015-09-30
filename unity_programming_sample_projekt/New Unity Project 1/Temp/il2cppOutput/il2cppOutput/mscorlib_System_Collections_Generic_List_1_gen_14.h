@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Graphic[]
-struct GraphicU5BU5D_t1906;
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t2013;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.UI.Graphic>
-struct  List_1_t162  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.Component>
+struct  List_1_t318  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_items
-	GraphicU5BU5D_t1906* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::_items
+	ComponentU5BU5D_t2013* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Component>::_version
 	int32_t ____version_3;
 };
-struct List_1_t162_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Graphic>::EmptyArray
-	GraphicU5BU5D_t1906* ___EmptyArray_4;
+struct List_1_t318_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.Component>::EmptyArray
+	ComponentU5BU5D_t2013* ___EmptyArray_4;
 };

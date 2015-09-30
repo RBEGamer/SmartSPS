@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.UnauthorizedAccessException
-struct  UnauthorizedAccessException_t1616  : public SystemException_t998
+struct  UnauthorizedAccessException_t1867  : public SystemException_t732
 {
 };

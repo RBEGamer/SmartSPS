@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Cryptography.RandomNumberGenerator
-struct  RandomNumberGenerator_t627  : public Object_t
+struct  RandomNumberGenerator_t804  : public Object_t
 {
 };

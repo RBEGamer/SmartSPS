@@ -3,6 +3,6 @@
 // System.IO.StreamReader
 #include "mscorlib_System_IO_StreamReader.h"
 // System.IO.StreamReader/NullStreamReader
-struct  NullStreamReader_t1184  : public StreamReader_t1185
+struct  NullStreamReader_t1444  : public StreamReader_t1090
 {
 };

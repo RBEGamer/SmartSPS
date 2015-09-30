@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.AssemblyInformationalVersionAttribute
-struct AssemblyInformationalVersionAttribute_t1238;
+struct AssemblyInformationalVersionAttribute_t1497;
 // System.String
 struct String_t;
 
 // System.Void System.Reflection.AssemblyInformationalVersionAttribute::.ctor(System.String)
-extern "C" void AssemblyInformationalVersionAttribute__ctor_m7637 (AssemblyInformationalVersionAttribute_t1238 * __this, String_t* ___informationalVersion, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AssemblyInformationalVersionAttribute__ctor_m9298 (AssemblyInformationalVersionAttribute_t1497 * __this, String_t* ___informationalVersion, const MethodInfo* method) IL2CPP_METHOD_ATTR;

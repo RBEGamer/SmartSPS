@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Contexts.IDynamicProperty
-struct IDynamicProperty_t1324;
+struct IDynamicProperty_t1582;
 // System.Runtime.Remoting.Contexts.IDynamicMessageSink
-struct IDynamicMessageSink_t1325;
+struct IDynamicMessageSink_t1583;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg
-struct  DynamicPropertyReg_t1323  : public Object_t
+struct  DynamicPropertyReg_t1581  : public Object_t
 {
 	// System.Runtime.Remoting.Contexts.IDynamicProperty System.Runtime.Remoting.Contexts.DynamicPropertyCollection/DynamicPropertyReg::Property
 	Object_t * ___Property_0;

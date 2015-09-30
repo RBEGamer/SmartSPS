@@ -8,6 +8,6 @@
 struct Object_t;
 
 // System.Void System.Linq.Check::Source(System.Object)
-extern "C" void Check_Source_m3180 (Object_t * __this /* static, unused */, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Check_Source_m3917 (Object_t * __this /* static, unused */, Object_t * ___source, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
-extern "C" void Check_SourceAndPredicate_m3181 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Check_SourceAndPredicate_m3918 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, const MethodInfo* method) IL2CPP_METHOD_ATTR;

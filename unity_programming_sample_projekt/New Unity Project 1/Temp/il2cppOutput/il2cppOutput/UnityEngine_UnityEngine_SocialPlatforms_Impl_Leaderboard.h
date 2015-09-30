@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.SocialPlatforms.IScore
-struct IScore_t535;
+struct IScore_t538;
 // UnityEngine.SocialPlatforms.IScore[]
-struct IScoreU5BU5D_t533;
+struct IScoreU5BU5D_t536;
 // System.String
 struct String_t;
 // System.String[]
-struct StringU5BU5D_t48;
+struct StringU5BU5D_t49;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.SocialPlatforms.UserScope
@@ -17,7 +17,7 @@ struct StringU5BU5D_t48;
 // UnityEngine.SocialPlatforms.TimeScope
 #include "UnityEngine_UnityEngine_SocialPlatforms_TimeScope.h"
 // UnityEngine.SocialPlatforms.Impl.Leaderboard
-struct  Leaderboard_t413  : public Object_t
+struct  Leaderboard_t416  : public Object_t
 {
 	// System.Boolean UnityEngine.SocialPlatforms.Impl.Leaderboard::m_Loading
 	bool ___m_Loading_0;
@@ -26,17 +26,17 @@ struct  Leaderboard_t413  : public Object_t
 	// System.UInt32 UnityEngine.SocialPlatforms.Impl.Leaderboard::m_MaxRange
 	uint32_t ___m_MaxRange_2;
 	// UnityEngine.SocialPlatforms.IScore[] UnityEngine.SocialPlatforms.Impl.Leaderboard::m_Scores
-	IScoreU5BU5D_t533* ___m_Scores_3;
+	IScoreU5BU5D_t536* ___m_Scores_3;
 	// System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::m_Title
 	String_t* ___m_Title_4;
 	// System.String[] UnityEngine.SocialPlatforms.Impl.Leaderboard::m_UserIDs
-	StringU5BU5D_t48* ___m_UserIDs_5;
+	StringU5BU5D_t49* ___m_UserIDs_5;
 	// System.String UnityEngine.SocialPlatforms.Impl.Leaderboard::<id>k__BackingField
 	String_t* ___U3CidU3Ek__BackingField_6;
 	// UnityEngine.SocialPlatforms.UserScope UnityEngine.SocialPlatforms.Impl.Leaderboard::<userScope>k__BackingField
 	int32_t ___U3CuserScopeU3Ek__BackingField_7;
 	// UnityEngine.SocialPlatforms.Range UnityEngine.SocialPlatforms.Impl.Leaderboard::<range>k__BackingField
-	Range_t534  ___U3CrangeU3Ek__BackingField_8;
+	Range_t537  ___U3CrangeU3Ek__BackingField_8;
 	// UnityEngine.SocialPlatforms.TimeScope UnityEngine.SocialPlatforms.Impl.Leaderboard::<timeScope>k__BackingField
 	int32_t ___U3CtimeScopeU3Ek__BackingField_9;
 };

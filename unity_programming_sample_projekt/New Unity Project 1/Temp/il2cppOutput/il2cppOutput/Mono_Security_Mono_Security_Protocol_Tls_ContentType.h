@@ -5,7 +5,7 @@
 // Mono.Security.Protocol.Tls.ContentType
 #include "Mono_Security_Mono_Security_Protocol_Tls_ContentType.h"
 // Mono.Security.Protocol.Tls.ContentType
-struct  ContentType_t725 
+struct  ContentType_t897 
 {
 	// System.Byte Mono.Security.Protocol.Tls.ContentType::value__
 	uint8_t ___value___1;

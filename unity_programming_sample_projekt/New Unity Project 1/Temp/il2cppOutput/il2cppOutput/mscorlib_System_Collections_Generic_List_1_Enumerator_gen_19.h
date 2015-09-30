@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.UI.IClippable>
-struct List_1_t211;
-// UnityEngine.UI.IClippable
-struct IClippable_t309;
+// System.Collections.Generic.List`1<UnityEngine.UIVertex>
+struct List_1_t309;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
-// System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>
-struct  Enumerator_t1944 
+// UnityEngine.UIVertex
+#include "UnityEngine_UnityEngine_UIVertex.h"
+// System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
+struct  Enumerator_t2156 
 {
-	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>::l
-	List_1_t211 * ___l_0;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>::next
+	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::l
+	List_1_t309 * ___l_0;
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::next
 	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>::ver
+	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::ver
 	int32_t ___ver_2;
-	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.IClippable>::current
-	Object_t * ___current_3;
+	// T System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>::current
+	UIVertex_t203  ___current_3;
 };

@@ -3,6 +3,6 @@
 // System.Collections.CollectionBase
 #include "mscorlib_System_Collections_CollectionBase.h"
 // Mono.Security.X509.X509CertificateCollection
-struct  X509CertificateCollection_t684  : public CollectionBase_t690
+struct  X509CertificateCollection_t856  : public CollectionBase_t862
 {
 };

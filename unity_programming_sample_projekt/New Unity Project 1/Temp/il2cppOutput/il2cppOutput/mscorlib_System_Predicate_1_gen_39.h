@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Security.Policy.StrongName
-struct StrongName_t1486;
+// UnityEngine.Events.PersistentCall
+struct PersistentCall_t560;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Predicate`1<System.Security.Policy.StrongName>
-struct  Predicate_1_t2234  : public MulticastDelegate_t185
+// System.Predicate`1<UnityEngine.Events.PersistentCall>
+struct  Predicate_1_t2403  : public MulticastDelegate_t190
 {
 };

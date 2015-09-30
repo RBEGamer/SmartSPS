@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IEnumerator
-struct IEnumerator_t28;
+struct IEnumerator_t29;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.Evidence/EvidenceEnumerator
-struct  EvidenceEnumerator_t1484  : public Object_t
+struct  EvidenceEnumerator_t1739  : public Object_t
 {
 	// System.Collections.IEnumerator System.Security.Policy.Evidence/EvidenceEnumerator::currentEnum
 	Object_t * ___currentEnum_0;

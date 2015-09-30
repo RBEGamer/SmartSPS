@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.SymmetricAlgorithm
-struct SymmetricAlgorithm_t629;
+struct SymmetricAlgorithm_t806;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t627;
+struct RandomNumberGenerator_t804;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.SymmetricTransform
-struct  SymmetricTransform_t628  : public Object_t
+struct  SymmetricTransform_t805  : public Object_t
 {
 	// System.Security.Cryptography.SymmetricAlgorithm Mono.Security.Cryptography.SymmetricTransform::algo
-	SymmetricAlgorithm_t629 * ___algo_0;
+	SymmetricAlgorithm_t806 * ___algo_0;
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::encrypt
 	bool ___encrypt_1;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::BlockSizeByte
 	int32_t ___BlockSizeByte_2;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::temp
-	ByteU5BU5D_t441* ___temp_3;
+	ByteU5BU5D_t444* ___temp_3;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::temp2
-	ByteU5BU5D_t441* ___temp2_4;
+	ByteU5BU5D_t444* ___temp2_4;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::workBuff
-	ByteU5BU5D_t441* ___workBuff_5;
+	ByteU5BU5D_t444* ___workBuff_5;
 	// System.Byte[] Mono.Security.Cryptography.SymmetricTransform::workout
-	ByteU5BU5D_t441* ___workout_6;
+	ByteU5BU5D_t444* ___workout_6;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::FeedBackByte
 	int32_t ___FeedBackByte_7;
 	// System.Int32 Mono.Security.Cryptography.SymmetricTransform::FeedBackIter
@@ -34,5 +34,5 @@ struct  SymmetricTransform_t628  : public Object_t
 	// System.Boolean Mono.Security.Cryptography.SymmetricTransform::lastBlock
 	bool ___lastBlock_10;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Cryptography.SymmetricTransform::_rng
-	RandomNumberGenerator_t627 * ____rng_11;
+	RandomNumberGenerator_t804 * ____rng_11;
 };

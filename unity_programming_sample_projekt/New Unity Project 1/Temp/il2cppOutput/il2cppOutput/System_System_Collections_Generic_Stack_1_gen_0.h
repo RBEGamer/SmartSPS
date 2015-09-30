@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Object[]
-struct ObjectU5BU5D_t320;
+// System.String[]
+struct StringU5BU5D_t49;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Stack`1<System.Object>
-struct  Stack_1_t1750  : public Object_t
+// System.Collections.Generic.Stack`1<System.String>
+struct  Stack_1_t762  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<System.Object>::_array
-	ObjectU5BU5D_t320* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Object>::_size
+	// T[] System.Collections.Generic.Stack`1<System.String>::_array
+	StringU5BU5D_t49* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1<System.String>::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Object>::_version
+	// System.Int32 System.Collections.Generic.Stack`1<System.String>::_version
 	int32_t ____version_2;
 };

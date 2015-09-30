@@ -3,16 +3,16 @@
 // System.String
 struct String_t;
 // System.String[]
-struct StringU5BU5D_t48;
+struct StringU5BU5D_t49;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.TypeInfo
-struct  TypeInfo_t1399  : public Object_t
+struct  TypeInfo_t1654  : public Object_t
 {
 	// System.String System.Runtime.Remoting.TypeInfo::serverType
 	String_t* ___serverType_0;
 	// System.String[] System.Runtime.Remoting.TypeInfo::serverHierarchy
-	StringU5BU5D_t48* ___serverHierarchy_1;
+	StringU5BU5D_t49* ___serverHierarchy_1;
 	// System.String[] System.Runtime.Remoting.TypeInfo::interfacesImplemented
-	StringU5BU5D_t48* ___interfacesImplemented_2;
+	StringU5BU5D_t49* ___interfacesImplemented_2;
 };

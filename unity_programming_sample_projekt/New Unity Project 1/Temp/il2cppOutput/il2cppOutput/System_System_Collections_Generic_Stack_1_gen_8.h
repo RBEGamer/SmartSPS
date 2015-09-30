@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// System.Collections.Generic.List`1<UnityEngine.Vector4>[]
-struct List_1U5BU5D_t2055;
+// System.Collections.Generic.List`1<UnityEngine.Vector2>[]
+struct List_1U5BU5D_t2310;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>
-struct  Stack_1_t2054  : public Object_t
+// System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector2>>
+struct  Stack_1_t2309  : public Object_t
 {
-	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::_array
-	List_1U5BU5D_t2055* ____array_0;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::_size
+	// T[] System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector2>>::_array
+	List_1U5BU5D_t2310* ____array_0;
+	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector2>>::_size
 	int32_t ____size_1;
-	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector4>>::_version
+	// System.Int32 System.Collections.Generic.Stack`1<System.Collections.Generic.List`1<UnityEngine.Vector2>>::_version
 	int32_t ____version_2;
 };

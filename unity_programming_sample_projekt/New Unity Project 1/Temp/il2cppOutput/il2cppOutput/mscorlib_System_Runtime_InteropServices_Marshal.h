@@ -3,10 +3,10 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.InteropServices.Marshal
-struct  Marshal_t1298  : public Object_t
+struct  Marshal_t1247  : public Object_t
 {
 };
-struct Marshal_t1298_StaticFields{
+struct Marshal_t1247_StaticFields{
 	// System.Int32 System.Runtime.InteropServices.Marshal::SystemMaxDBCSCharSize
 	int32_t ___SystemMaxDBCSCharSize_0;
 	// System.Int32 System.Runtime.InteropServices.Marshal::SystemDefaultCharSize

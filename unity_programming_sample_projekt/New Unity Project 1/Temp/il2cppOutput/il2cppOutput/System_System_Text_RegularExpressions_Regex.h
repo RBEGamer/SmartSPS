@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.FactoryCache
-struct FactoryCache_t919;
+struct FactoryCache_t1174;
 // System.Text.RegularExpressions.IMachineFactory
-struct IMachineFactory_t920;
+struct IMachineFactory_t1175;
 // System.Collections.IDictionary
-struct IDictionary_t921;
+struct IDictionary_t1176;
 // System.String[]
-struct StringU5BU5D_t48;
+struct StringU5BU5D_t49;
 // System.Int32[]
-struct Int32U5BU5D_t388;
+struct Int32U5BU5D_t391;
 // System.String
 struct String_t;
 // System.Object
@@ -17,7 +17,7 @@ struct String_t;
 // System.Text.RegularExpressions.RegexOptions
 #include "System_System_Text_RegularExpressions_RegexOptions.h"
 // System.Text.RegularExpressions.Regex
-struct  Regex_t613  : public Object_t
+struct  Regex_t616  : public Object_t
 {
 	// System.Text.RegularExpressions.IMachineFactory System.Text.RegularExpressions.Regex::machineFactory
 	Object_t * ___machineFactory_1;
@@ -28,15 +28,15 @@ struct  Regex_t613  : public Object_t
 	// System.Int32 System.Text.RegularExpressions.Regex::gap
 	int32_t ___gap_4;
 	// System.String[] System.Text.RegularExpressions.Regex::group_names
-	StringU5BU5D_t48* ___group_names_5;
+	StringU5BU5D_t49* ___group_names_5;
 	// System.Int32[] System.Text.RegularExpressions.Regex::group_numbers
-	Int32U5BU5D_t388* ___group_numbers_6;
+	Int32U5BU5D_t391* ___group_numbers_6;
 	// System.String System.Text.RegularExpressions.Regex::pattern
 	String_t* ___pattern_7;
 	// System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.Regex::roptions
 	int32_t ___roptions_8;
 };
-struct Regex_t613_StaticFields{
+struct Regex_t616_StaticFields{
 	// System.Text.RegularExpressions.FactoryCache System.Text.RegularExpressions.Regex::cache
-	FactoryCache_t919 * ___cache_0;
+	FactoryCache_t1174 * ___cache_0;
 };

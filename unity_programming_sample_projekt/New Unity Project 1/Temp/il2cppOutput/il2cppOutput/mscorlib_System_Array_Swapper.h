@@ -1,9 +1,9 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -13,6 +13,6 @@ struct Object_t;
 // System.Int32
 #include "mscorlib_System_Int32.h"
 // System.Array/Swapper
-struct  Swapper_t1013  : public MulticastDelegate_t185
+struct  Swapper_t1273  : public MulticastDelegate_t190
 {
 };

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.UInt16[]
-struct UInt16U5BU5D_t866;
+struct UInt16U5BU5D_t1107;
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // Mono.Security.Cryptography.SymmetricTransform
 #include "mscorlib_Mono_Security_Cryptography_SymmetricTransform.h"
 // System.Security.Cryptography.RC2Transform
-struct  RC2Transform_t1454  : public SymmetricTransform_t1087
+struct  RC2Transform_t1709  : public SymmetricTransform_t1347
 {
 	// System.UInt16 System.Security.Cryptography.RC2Transform::R0
 	uint16_t ___R0_12;
@@ -18,11 +18,11 @@ struct  RC2Transform_t1454  : public SymmetricTransform_t1087
 	// System.UInt16 System.Security.Cryptography.RC2Transform::R3
 	uint16_t ___R3_15;
 	// System.UInt16[] System.Security.Cryptography.RC2Transform::K
-	UInt16U5BU5D_t866* ___K_16;
+	UInt16U5BU5D_t1107* ___K_16;
 	// System.Int32 System.Security.Cryptography.RC2Transform::j
 	int32_t ___j_17;
 };
-struct RC2Transform_t1454_StaticFields{
+struct RC2Transform_t1709_StaticFields{
 	// System.Byte[] System.Security.Cryptography.RC2Transform::pitable
-	ByteU5BU5D_t441* ___pitable_18;
+	ByteU5BU5D_t444* ___pitable_18;
 };

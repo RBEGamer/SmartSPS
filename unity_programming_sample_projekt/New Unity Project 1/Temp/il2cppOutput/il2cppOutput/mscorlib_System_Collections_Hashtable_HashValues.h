@@ -5,7 +5,7 @@ struct Hashtable_t53;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Hashtable/HashValues
-struct  HashValues_t1127  : public Object_t
+struct  HashValues_t1386  : public Object_t
 {
 	// System.Collections.Hashtable System.Collections.Hashtable/HashValues::host
 	Hashtable_t53 * ___host_0;

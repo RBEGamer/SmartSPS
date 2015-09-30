@@ -3,6 +3,6 @@
 // UnityEngine.UI.HorizontalOrVerticalLayoutGroup
 #include "UnityEngine_UI_UnityEngine_UI_HorizontalOrVerticalLayoutGrou.h"
 // UnityEngine.UI.HorizontalLayoutGroup
-struct  HorizontalLayoutGroup_t260  : public HorizontalOrVerticalLayoutGroup_t261
+struct  HorizontalLayoutGroup_t264  : public HorizontalOrVerticalLayoutGroup_t265
 {
 };

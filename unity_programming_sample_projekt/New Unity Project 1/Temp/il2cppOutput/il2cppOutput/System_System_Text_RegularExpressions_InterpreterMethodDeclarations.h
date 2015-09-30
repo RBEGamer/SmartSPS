@@ -5,61 +5,61 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Interpreter
-struct Interpreter_t942;
+struct Interpreter_t1196;
 // System.UInt16[]
-struct UInt16U5BU5D_t866;
+struct UInt16U5BU5D_t1107;
 // System.Text.RegularExpressions.Match
-struct Match_t829;
+struct Match_t992;
 // System.Text.RegularExpressions.Regex
-struct Regex_t613;
+struct Regex_t616;
 // System.String
 struct String_t;
 // System.Text.RegularExpressions.Group
-struct Group_t831;
+struct Group_t994;
 // System.Text.RegularExpressions.Interpreter/Mode
 #include "System_System_Text_RegularExpressions_Interpreter_Mode.h"
 // System.Text.RegularExpressions.Position
 #include "System_System_Text_RegularExpressions_Position.h"
 
 // System.Void System.Text.RegularExpressions.Interpreter::.ctor(System.UInt16[])
-extern "C" void Interpreter__ctor_m4816 (Interpreter_t942 * __this, UInt16U5BU5D_t866* ___program, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter__ctor_m6357 (Interpreter_t1196 * __this, UInt16U5BU5D_t1107* ___program, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter::ReadProgramCount(System.Int32)
-extern "C" int32_t Interpreter_ReadProgramCount_m4817 (Interpreter_t942 * __this, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Interpreter_ReadProgramCount_m6358 (Interpreter_t1196 * __this, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::Scan(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32)
-extern "C" Match_t829 * Interpreter_Scan_m4818 (Interpreter_t942 * __this, Regex_t613 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t992 * Interpreter_Scan_m6359 (Interpreter_t1196 * __this, Regex_t616 * ___regex, String_t* ___text, int32_t ___start, int32_t ___end, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::Reset()
-extern "C" void Interpreter_Reset_m4819 (Interpreter_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_Reset_m6360 (Interpreter_t1196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::Eval(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32)
-extern "C" bool Interpreter_Eval_m4820 (Interpreter_t942 * __this, int32_t ___mode, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_Eval_m6361 (Interpreter_t1196 * __this, int32_t ___mode, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::EvalChar(System.Text.RegularExpressions.Interpreter/Mode,System.Int32&,System.Int32&,System.Boolean)
-extern "C" bool Interpreter_EvalChar_m4821 (Interpreter_t942 * __this, int32_t ___mode, int32_t* ___ptr, int32_t* ___pc, bool ___multi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_EvalChar_m6362 (Interpreter_t1196 * __this, int32_t ___mode, int32_t* ___ptr, int32_t* ___pc, bool ___multi, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::TryMatch(System.Int32&,System.Int32)
-extern "C" bool Interpreter_TryMatch_m4822 (Interpreter_t942 * __this, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_TryMatch_m6363 (Interpreter_t1196 * __this, int32_t* ___ref_ptr, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsPosition(System.Text.RegularExpressions.Position,System.Int32)
-extern "C" bool Interpreter_IsPosition_m4823 (Interpreter_t942 * __this, uint16_t ___pos, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_IsPosition_m6364 (Interpreter_t1196 * __this, uint16_t ___pos, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::IsWordChar(System.Char)
-extern "C" bool Interpreter_IsWordChar_m4824 (Interpreter_t942 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_IsWordChar_m6365 (Interpreter_t1196 * __this, uint16_t ___c, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Text.RegularExpressions.Interpreter::GetString(System.Int32)
-extern "C" String_t* Interpreter_GetString_m4825 (Interpreter_t942 * __this, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Interpreter_GetString_m6366 (Interpreter_t1196 * __this, int32_t ___pc, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::Open(System.Int32,System.Int32)
-extern "C" void Interpreter_Open_m4826 (Interpreter_t942 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_Open_m6367 (Interpreter_t1196 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::Close(System.Int32,System.Int32)
-extern "C" void Interpreter_Close_m4827 (Interpreter_t942 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_Close_m6368 (Interpreter_t1196 * __this, int32_t ___gid, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Interpreter::Balance(System.Int32,System.Int32,System.Boolean,System.Int32)
-extern "C" bool Interpreter_Balance_m4828 (Interpreter_t942 * __this, int32_t ___gid, int32_t ___balance_gid, bool ___capture, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Interpreter_Balance_m6369 (Interpreter_t1196 * __this, int32_t ___gid, int32_t ___balance_gid, bool ___capture, int32_t ___ptr, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter::Checkpoint()
-extern "C" int32_t Interpreter_Checkpoint_m4829 (Interpreter_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Interpreter_Checkpoint_m6370 (Interpreter_t1196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::Backtrack(System.Int32)
-extern "C" void Interpreter_Backtrack_m4830 (Interpreter_t942 * __this, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_Backtrack_m6371 (Interpreter_t1196 * __this, int32_t ___cp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::ResetGroups()
-extern "C" void Interpreter_ResetGroups_m4831 (Interpreter_t942 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_ResetGroups_m6372 (Interpreter_t1196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter::GetLastDefined(System.Int32)
-extern "C" int32_t Interpreter_GetLastDefined_m4832 (Interpreter_t942 * __this, int32_t ___gid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Interpreter_GetLastDefined_m6373 (Interpreter_t1196 * __this, int32_t ___gid, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.Interpreter::CreateMark(System.Int32)
-extern "C" int32_t Interpreter_CreateMark_m4833 (Interpreter_t942 * __this, int32_t ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Interpreter_CreateMark_m6374 (Interpreter_t1196 * __this, int32_t ___previous, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::GetGroupInfo(System.Int32,System.Int32&,System.Int32&)
-extern "C" void Interpreter_GetGroupInfo_m4834 (Interpreter_t942 * __this, int32_t ___gid, int32_t* ___first_mark_index, int32_t* ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_GetGroupInfo_m6375 (Interpreter_t1196 * __this, int32_t ___gid, int32_t* ___first_mark_index, int32_t* ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Interpreter::PopulateGroup(System.Text.RegularExpressions.Group,System.Int32,System.Int32)
-extern "C" void Interpreter_PopulateGroup_m4835 (Interpreter_t942 * __this, Group_t831 * ___g, int32_t ___first_mark_index, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Interpreter_PopulateGroup_m6376 (Interpreter_t1196 * __this, Group_t994 * ___g, int32_t ___first_mark_index, int32_t ___n_caps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Match System.Text.RegularExpressions.Interpreter::GenerateMatch(System.Text.RegularExpressions.Regex)
-extern "C" Match_t829 * Interpreter_GenerateMatch_m4836 (Interpreter_t942 * __this, Regex_t613 * ___regex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Match_t992 * Interpreter_GenerateMatch_m6377 (Interpreter_t1196 * __this, Regex_t616 * ___regex, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Reflection.AssemblyInformationalVersionAttribute
-struct  AssemblyInformationalVersionAttribute_t1238  : public Attribute_t434
+struct  AssemblyInformationalVersionAttribute_t1497  : public Attribute_t437
 {
 	// System.String System.Reflection.AssemblyInformationalVersionAttribute::name
 	String_t* ___name_0;

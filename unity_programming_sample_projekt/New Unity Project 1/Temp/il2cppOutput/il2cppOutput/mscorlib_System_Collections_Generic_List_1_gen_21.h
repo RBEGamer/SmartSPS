@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.RectTransform[]
-struct RectTransformU5BU5D_t1982;
+// UnityEngine.UI.Toggle[]
+struct ToggleU5BU5D_t2225;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct  List_1_t264  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
+struct  List_1_t245  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::_items
-	RectTransformU5BU5D_t1982* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_items
+	ToggleU5BU5D_t2225* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.RectTransform>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::_version
 	int32_t ____version_3;
 };
-struct List_1_t264_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.RectTransform>::EmptyArray
-	RectTransformU5BU5D_t1982* ___EmptyArray_4;
+struct List_1_t245_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Toggle>::EmptyArray
+	ToggleU5BU5D_t2225* ___EmptyArray_4;
 };

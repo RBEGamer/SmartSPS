@@ -3,6 +3,6 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Void
-struct  Void_t1014 
+struct  Void_t1274 
 {
 };

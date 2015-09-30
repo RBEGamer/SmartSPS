@@ -16,15 +16,17 @@
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
 extern Il2CppImage g_UnityEngine_UI_dll_Image;
 extern Il2CppImage g_UnityEngine_dll_Image;
+extern Il2CppImage g_System_Xml_dll_Image;
 extern Il2CppImage g_System_Core_dll_Image;
 extern Il2CppImage g_Mono_Security_dll_Image;
 extern Il2CppImage g_System_dll_Image;
 extern Il2CppImage g_mscorlib_dll_Image;
-extern Il2CppImage* g_Images[7] = 
+extern Il2CppImage* g_Images[8] = 
 {
 	&g_AssemblyU2DCSharp_dll_Image,
 	&g_UnityEngine_UI_dll_Image,
 	&g_UnityEngine_dll_Image,
+	&g_System_Xml_dll_Image,
 	&g_System_Core_dll_Image,
 	&g_Mono_Security_dll_Image,
 	&g_System_dll_Image,

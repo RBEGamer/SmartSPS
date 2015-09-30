@@ -5,7 +5,7 @@
 // UnityEngine.UI.CanvasUpdate
 #include "UnityEngine_UI_UnityEngine_UI_CanvasUpdate.h"
 // UnityEngine.UI.CanvasUpdate
-struct  CanvasUpdate_t127 
+struct  CanvasUpdate_t133 
 {
 	// System.Int32 UnityEngine.UI.CanvasUpdate::value__
 	int32_t ___value___1;

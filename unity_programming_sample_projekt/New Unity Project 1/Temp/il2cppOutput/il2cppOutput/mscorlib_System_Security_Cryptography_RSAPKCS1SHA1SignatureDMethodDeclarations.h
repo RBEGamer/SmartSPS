@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
-struct RSAPKCS1SHA1SignatureDescription_t1474;
+struct RSAPKCS1SHA1SignatureDescription_t1729;
 
 // System.Void System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription::.ctor()
-extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m8822 (RSAPKCS1SHA1SignatureDescription_t1474 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RSAPKCS1SHA1SignatureDescription__ctor_m10486 (RSAPKCS1SHA1SignatureDescription_t1729 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

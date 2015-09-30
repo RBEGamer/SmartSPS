@@ -5,11 +5,11 @@ struct String_t;
 // System.Collections.Hashtable
 struct Hashtable_t53;
 // System.Collections.IList
-struct IList_t947;
+struct IList_t782;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.ProviderData
-struct  ProviderData_t1389  : public Object_t
+struct  ProviderData_t1644  : public Object_t
 {
 	// System.String System.Runtime.Remoting.ProviderData::Ref
 	String_t* ___Ref_0;

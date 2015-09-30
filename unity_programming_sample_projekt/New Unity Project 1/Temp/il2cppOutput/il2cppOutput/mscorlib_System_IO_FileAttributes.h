@@ -5,7 +5,7 @@
 // System.IO.FileAttributes
 #include "mscorlib_System_IO_FileAttributes.h"
 // System.IO.FileAttributes
-struct  FileAttributes_t1167 
+struct  FileAttributes_t1427 
 {
 	// System.Int32 System.IO.FileAttributes::value__
 	int32_t ___value___1;

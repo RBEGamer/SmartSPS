@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent`1<System.Boolean>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_4.h"
 // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-struct  CullStateChangedEvent_t201  : public UnityEvent_1_t202
+struct  CullStateChangedEvent_t205  : public UnityEvent_1_t206
 {
 };

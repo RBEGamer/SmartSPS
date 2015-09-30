@@ -4,27 +4,16 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array
-struct Array_t;
-// System.Object
-struct Object_t;
-// System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_29.h"
-// UnityEngine.SocialPlatforms.GameCenter.GcAchievementData
-#include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcAchieve_0.h"
 
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m14965_gshared (InternalEnumerator_1_t2071 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m14965(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2071 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m14965_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14966_gshared (InternalEnumerator_1_t2071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14966(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2071 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m14966_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m14967_gshared (InternalEnumerator_1_t2071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m14967(__this, method) (( void (*) (InternalEnumerator_1_t2071 *, const MethodInfo*))InternalEnumerator_1_Dispose_m14967_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m14968_gshared (InternalEnumerator_1_t2071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m14968(__this, method) (( bool (*) (InternalEnumerator_1_t2071 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m14968_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.GameCenter.GcAchievementData>::get_Current()
-extern "C" GcAchievementData_t521  InternalEnumerator_1_get_Current_m14969_gshared (InternalEnumerator_1_t2071 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m14969(__this, method) (( GcAchievementData_t521  (*) (InternalEnumerator_1_t2071 *, const MethodInfo*))InternalEnumerator_1_get_Current_m14969_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m16687(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2324 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11819_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16688(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2324 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11821_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::Dispose()
+#define InternalEnumerator_1_Dispose_m16689(__this, method) (( void (*) (InternalEnumerator_1_t2324 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11823_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m16690(__this, method) (( bool (*) (InternalEnumerator_1_t2324 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11825_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<UnityEngine.SocialPlatforms.Impl.UserProfile>::get_Current()
+#define InternalEnumerator_1_get_Current_m16691(__this, method) (( UserProfile_t531 * (*) (InternalEnumerator_1_t2324 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11827_gshared)(__this, method)

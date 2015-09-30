@@ -5,7 +5,7 @@ struct String_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.SocialPlatforms.GameCenter.GcAchievementData
-struct  GcAchievementData_t521 
+struct  GcAchievementData_t524 
 {
 	// System.String UnityEngine.SocialPlatforms.GameCenter.GcAchievementData::m_Identifier
 	String_t* ___m_Identifier_0;
@@ -19,7 +19,7 @@ struct  GcAchievementData_t521
 	int32_t ___m_LastReportedDate_4;
 };
 // Native definition for marshalling of: UnityEngine.SocialPlatforms.GameCenter.GcAchievementData
-struct GcAchievementData_t521_marshaled
+struct GcAchievementData_t524_marshaled
 {
 	char* ___m_Identifier_0;
 	double ___m_PercentCompleted_1;

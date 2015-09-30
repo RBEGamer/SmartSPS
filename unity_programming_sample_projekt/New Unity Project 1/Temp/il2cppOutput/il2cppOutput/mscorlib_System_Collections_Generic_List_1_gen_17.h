@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.CanvasGroup[]
-struct CanvasGroupU5BU5D_t1954;
+// UnityEngine.UI.IClippable[]
+struct IClippableU5BU5D_t2199;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct  List_1_t228  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.IClippable>
+struct  List_1_t215  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_items
-	CanvasGroupU5BU5D_t1954* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_items
+	IClippableU5BU5D_t2199* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::_version
 	int32_t ____version_3;
 };
-struct List_1_t228_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.CanvasGroup>::EmptyArray
-	CanvasGroupU5BU5D_t1954* ___EmptyArray_4;
+struct List_1_t215_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.IClippable>::EmptyArray
+	IClippableU5BU5D_t2199* ___EmptyArray_4;
 };

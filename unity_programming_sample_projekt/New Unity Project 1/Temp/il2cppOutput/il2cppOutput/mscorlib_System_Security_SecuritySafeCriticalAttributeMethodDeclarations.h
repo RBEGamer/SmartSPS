@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Security.SecuritySafeCriticalAttribute
-struct SecuritySafeCriticalAttribute_t1499;
+struct SecuritySafeCriticalAttribute_t1753;
 
 // System.Void System.Security.SecuritySafeCriticalAttribute::.ctor()
-extern "C" void SecuritySafeCriticalAttribute__ctor_m8957 (SecuritySafeCriticalAttribute_t1499 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SecuritySafeCriticalAttribute__ctor_m10620 (SecuritySafeCriticalAttribute_t1753 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

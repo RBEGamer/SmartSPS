@@ -7,7 +7,7 @@
 // UnityEngine.TouchPhase
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 // UnityEngine.Touch
-struct  Touch_t45 
+struct  Touch_t46 
 {
 	// System.Int32 UnityEngine.Touch::m_FingerId
 	int32_t ___m_FingerId_0;
@@ -29,7 +29,7 @@ struct  Touch_t45
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.TouchPhase
 #include "UnityEngine_UnityEngine_TouchPhase.h"
-struct Touch_t45_marshaled
+struct Touch_t46_marshaled
 {
 	int32_t ___m_FingerId_0;
 	Vector2_t11  ___m_Position_1;

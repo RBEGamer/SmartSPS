@@ -1,44 +1,44 @@
 ﻿#pragma once
 #include <stdint.h>
 // Mono.Xml.SmallXmlParser/IContentHandler
-struct IContentHandler_t1109;
+struct IContentHandler_t1368;
 // System.IO.TextReader
-struct TextReader_t1108;
+struct TextReader_t736;
 // System.Collections.Stack
-struct Stack_t937;
+struct Stack_t719;
 // System.String
 struct String_t;
 // System.Text.StringBuilder
-struct StringBuilder_t316;
+struct StringBuilder_t320;
 // System.Char[]
-struct CharU5BU5D_t197;
+struct CharU5BU5D_t60;
 // Mono.Xml.SmallXmlParser/AttrListImpl
-struct AttrListImpl_t1107;
+struct AttrListImpl_t1367;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t198;
+struct Dictionary_2_t202;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Xml.SmallXmlParser
-struct  SmallXmlParser_t1105  : public Object_t
+struct  SmallXmlParser_t1365  : public Object_t
 {
 	// Mono.Xml.SmallXmlParser/IContentHandler Mono.Xml.SmallXmlParser::handler
 	Object_t * ___handler_0;
 	// System.IO.TextReader Mono.Xml.SmallXmlParser::reader
-	TextReader_t1108 * ___reader_1;
+	TextReader_t736 * ___reader_1;
 	// System.Collections.Stack Mono.Xml.SmallXmlParser::elementNames
-	Stack_t937 * ___elementNames_2;
+	Stack_t719 * ___elementNames_2;
 	// System.Collections.Stack Mono.Xml.SmallXmlParser::xmlSpaces
-	Stack_t937 * ___xmlSpaces_3;
+	Stack_t719 * ___xmlSpaces_3;
 	// System.String Mono.Xml.SmallXmlParser::xmlSpace
 	String_t* ___xmlSpace_4;
 	// System.Text.StringBuilder Mono.Xml.SmallXmlParser::buffer
-	StringBuilder_t316 * ___buffer_5;
+	StringBuilder_t320 * ___buffer_5;
 	// System.Char[] Mono.Xml.SmallXmlParser::nameBuffer
-	CharU5BU5D_t197* ___nameBuffer_6;
+	CharU5BU5D_t60* ___nameBuffer_6;
 	// System.Boolean Mono.Xml.SmallXmlParser::isWhitespace
 	bool ___isWhitespace_7;
 	// Mono.Xml.SmallXmlParser/AttrListImpl Mono.Xml.SmallXmlParser::attributes
-	AttrListImpl_t1107 * ___attributes_8;
+	AttrListImpl_t1367 * ___attributes_8;
 	// System.Int32 Mono.Xml.SmallXmlParser::line
 	int32_t ___line_9;
 	// System.Int32 Mono.Xml.SmallXmlParser::column
@@ -46,7 +46,7 @@ struct  SmallXmlParser_t1105  : public Object_t
 	// System.Boolean Mono.Xml.SmallXmlParser::resetColumn
 	bool ___resetColumn_11;
 };
-struct SmallXmlParser_t1105_StaticFields{
+struct SmallXmlParser_t1365_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Xml.SmallXmlParser::<>f__switch$map18
-	Dictionary_2_t198 * ___U3CU3Ef__switchU24map18_12;
+	Dictionary_2_t202 * ___U3CU3Ef__switchU24map18_12;
 };

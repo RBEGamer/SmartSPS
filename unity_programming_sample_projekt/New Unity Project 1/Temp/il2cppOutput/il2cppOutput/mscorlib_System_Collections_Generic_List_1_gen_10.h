@@ -1,20 +1,20 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.Canvas[]
-struct CanvasU5BU5D_t1859;
+// UnityEngine.UI.Dropdown/DropdownItem[]
+struct DropdownItemU5BU5D_t2111;
 // System.Object
 #include "mscorlib_System_Object.h"
-// System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct  List_1_t336  : public Object_t
+// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
+struct  List_1_t152  : public Object_t
 {
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::_items
-	CanvasU5BU5D_t1859* ____items_1;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_size
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_items
+	DropdownItemU5BU5D_t2111* ____items_1;
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_size
 	int32_t ____size_2;
-	// System.Int32 System.Collections.Generic.List`1<UnityEngine.Canvas>::_version
+	// System.Int32 System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::_version
 	int32_t ____version_3;
 };
-struct List_1_t336_StaticFields{
-	// T[] System.Collections.Generic.List`1<UnityEngine.Canvas>::EmptyArray
-	CanvasU5BU5D_t1859* ___EmptyArray_4;
+struct List_1_t152_StaticFields{
+	// T[] System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>::EmptyArray
+	DropdownItemU5BU5D_t2111* ___EmptyArray_4;
 };

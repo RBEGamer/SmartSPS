@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t441;
+struct ByteU5BU5D_t444;
 // System.Char[]
-struct CharU5BU5D_t197;
+struct CharU5BU5D_t60;
 // System.Text.Encoding
 struct Encoding_t52;
 // System.Text.Decoder
-struct Decoder_t1160;
+struct Decoder_t737;
 // System.IO.Stream
-struct Stream_t739;
+struct Stream_t738;
 // System.Text.StringBuilder
-struct StringBuilder_t316;
+struct StringBuilder_t320;
 // System.IO.StreamReader
-struct StreamReader_t1185;
+struct StreamReader_t1090;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StreamReader
-struct  StreamReader_t1185  : public TextReader_t1108
+struct  StreamReader_t1090  : public TextReader_t736
 {
 	// System.Byte[] System.IO.StreamReader::input_buffer
-	ByteU5BU5D_t441* ___input_buffer_1;
+	ByteU5BU5D_t444* ___input_buffer_1;
 	// System.Char[] System.IO.StreamReader::decoded_buffer
-	CharU5BU5D_t197* ___decoded_buffer_2;
+	CharU5BU5D_t60* ___decoded_buffer_2;
 	// System.Int32 System.IO.StreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.IO.StreamReader::pos
@@ -34,17 +34,17 @@ struct  StreamReader_t1185  : public TextReader_t1108
 	// System.Text.Encoding System.IO.StreamReader::encoding
 	Encoding_t52 * ___encoding_7;
 	// System.Text.Decoder System.IO.StreamReader::decoder
-	Decoder_t1160 * ___decoder_8;
+	Decoder_t737 * ___decoder_8;
 	// System.IO.Stream System.IO.StreamReader::base_stream
-	Stream_t739 * ___base_stream_9;
+	Stream_t738 * ___base_stream_9;
 	// System.Boolean System.IO.StreamReader::mayBlock
 	bool ___mayBlock_10;
 	// System.Text.StringBuilder System.IO.StreamReader::line_builder
-	StringBuilder_t316 * ___line_builder_11;
+	StringBuilder_t320 * ___line_builder_11;
 	// System.Boolean System.IO.StreamReader::foundCR
 	bool ___foundCR_13;
 };
-struct StreamReader_t1185_StaticFields{
+struct StreamReader_t1090_StaticFields{
 	// System.IO.StreamReader System.IO.StreamReader::Null
-	StreamReader_t1185 * ___Null_12;
+	StreamReader_t1090 * ___Null_12;
 };

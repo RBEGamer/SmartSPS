@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Security.UnverifiableCodeAttribute
-struct  UnverifiableCodeAttribute_t1501  : public Attribute_t434
+struct  UnverifiableCodeAttribute_t1755  : public Attribute_t437
 {
 };

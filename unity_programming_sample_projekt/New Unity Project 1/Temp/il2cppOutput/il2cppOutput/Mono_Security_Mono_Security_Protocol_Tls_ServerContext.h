@@ -3,6 +3,6 @@
 // Mono.Security.Protocol.Tls.Context
 #include "Mono_Security_Mono_Security_Protocol_Tls_Context.h"
 // Mono.Security.Protocol.Tls.ServerContext
-struct  ServerContext_t748  : public Context_t716
+struct  ServerContext_t919  : public Context_t888
 {
 };

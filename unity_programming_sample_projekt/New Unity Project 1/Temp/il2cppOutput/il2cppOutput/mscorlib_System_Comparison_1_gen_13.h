@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
-// UnityEngine.UI.Dropdown/OptionData
-struct OptionData_t139;
+// UnityEngine.EventSystems.PointerInputModule/ButtonState
+struct ButtonState_t107;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-// System.Comparison`1<UnityEngine.UI.Dropdown/OptionData>
-struct  Comparison_1_t1849  : public MulticastDelegate_t185
+// System.Comparison`1<UnityEngine.EventSystems.PointerInputModule/ButtonState>
+struct  Comparison_1_t2082  : public MulticastDelegate_t190
 {
 };

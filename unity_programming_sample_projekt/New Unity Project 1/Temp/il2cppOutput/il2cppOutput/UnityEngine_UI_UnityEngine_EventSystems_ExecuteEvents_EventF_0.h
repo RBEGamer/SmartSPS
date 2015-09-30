@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.EventSystems.ISelectHandler
-struct ISelectHandler_t296;
+struct ISelectHandler_t300;
 // UnityEngine.EventSystems.BaseEventData
-struct BaseEventData_t62;
+struct BaseEventData_t68;
 // System.IAsyncResult
-struct IAsyncResult_t186;
+struct IAsyncResult_t191;
 // System.AsyncCallback
-struct AsyncCallback_t187;
+struct AsyncCallback_t192;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
@@ -15,6 +15,6 @@ struct Object_t;
 // System.Void
 #include "mscorlib_System_Void.h"
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ISelectHandler>
-struct  EventFunction_1_t83  : public MulticastDelegate_t185
+struct  EventFunction_1_t89  : public MulticastDelegate_t190
 {
 };

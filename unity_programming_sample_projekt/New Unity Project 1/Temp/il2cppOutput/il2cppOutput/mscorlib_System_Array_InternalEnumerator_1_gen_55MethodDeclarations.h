@@ -4,25 +4,16 @@
 #include <exception>
 #include "codegen/il2cpp-codegen.h"
 
-// System.Array
-struct Array_t;
-// System.Object
-struct Object_t;
-// System.Array/InternalEnumerator`1<System.Boolean>
-#include "mscorlib_System_Array_InternalEnumerator_1_gen_55.h"
 
-// System.Void System.Array/InternalEnumerator`1<System.Boolean>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m16166_gshared (InternalEnumerator_1_t2167 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m16166(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2167 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m16166_gshared)(__this, ___array, method)
-// System.Object System.Array/InternalEnumerator`1<System.Boolean>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16167_gshared (InternalEnumerator_1_t2167 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16167(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2167 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16167_gshared)(__this, method)
-// System.Void System.Array/InternalEnumerator`1<System.Boolean>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m16168_gshared (InternalEnumerator_1_t2167 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m16168(__this, method) (( void (*) (InternalEnumerator_1_t2167 *, const MethodInfo*))InternalEnumerator_1_Dispose_m16168_gshared)(__this, method)
-// System.Boolean System.Array/InternalEnumerator`1<System.Boolean>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m16169_gshared (InternalEnumerator_1_t2167 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m16169(__this, method) (( bool (*) (InternalEnumerator_1_t2167 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m16169_gshared)(__this, method)
-// T System.Array/InternalEnumerator`1<System.Boolean>::get_Current()
-extern "C" bool InternalEnumerator_1_get_Current_m16170_gshared (InternalEnumerator_1_t2167 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m16170(__this, method) (( bool (*) (InternalEnumerator_1_t2167 *, const MethodInfo*))InternalEnumerator_1_get_Current_m16170_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::.ctor(System.Array)
+// System.Array/InternalEnumerator`1<System.Object>
+#include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
+#define InternalEnumerator_1__ctor_m18142(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2438 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m11819_gshared)(__this, ___array, method)
+// System.Object System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::System.Collections.IEnumerator.get_Current()
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m18143(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2438 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m11821_gshared)(__this, method)
+// System.Void System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::Dispose()
+#define InternalEnumerator_1_Dispose_m18144(__this, method) (( void (*) (InternalEnumerator_1_t2438 *, const MethodInfo*))InternalEnumerator_1_Dispose_m11823_gshared)(__this, method)
+// System.Boolean System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::MoveNext()
+#define InternalEnumerator_1_MoveNext_m18145(__this, method) (( bool (*) (InternalEnumerator_1_t2438 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m11825_gshared)(__this, method)
+// T System.Array/InternalEnumerator`1<System.Xml.XmlTextWriter/XmlNodeInfo>::get_Current()
+#define InternalEnumerator_1_get_Current_m18146(__this, method) (( XmlNodeInfo_t763 * (*) (InternalEnumerator_1_t2438 *, const MethodInfo*))InternalEnumerator_1_get_Current_m11827_gshared)(__this, method)

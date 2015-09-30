@@ -10,6 +10,6 @@ struct Object_t;
 struct Type_t;
 
 // System.Object System.Runtime.Serialization.FormatterServices::GetUninitializedObject(System.Type)
-extern "C" Object_t * FormatterServices_GetUninitializedObject_m8437 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FormatterServices_GetUninitializedObject_m10102 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Runtime.Serialization.FormatterServices::GetSafeUninitializedObject(System.Type)
-extern "C" Object_t * FormatterServices_GetSafeUninitializedObject_m8438 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * FormatterServices_GetSafeUninitializedObject_m10103 (Object_t * __this /* static, unused */, Type_t * ___type, const MethodInfo* method) IL2CPP_METHOD_ATTR;
