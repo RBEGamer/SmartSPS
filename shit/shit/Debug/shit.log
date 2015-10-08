@@ -1,0 +1,16 @@
+﻿Build started 08.10.2015 21:43:02.
+     1>Project "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" "/solution:C:\Users\Marcel\Desktop\shit\shit.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Sending 1 updated source file to build machine...
+         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/c/Users/Marcel/Desktop/shit/shit" on root@192.168.178.58 (SSH)
+         g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c main.cpp -o Debug/main.o -MD -MF Debug/main.dep
+         main.cpp: In function 'int main(int, char**)':
+     1>C:\Users\Marcel\Desktop\shit\shit\main.cpp(19,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     1>C:\Users\Marcel\Desktop\shit\shit\main.cpp(20,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         g++ -o Debug/shit -Wl,-gc-sections   -L/usr/lib -L/usr/local/lib -Wl,--start-group Debug/base_nbdo.o Debug/base_node.o Debug/node_nbdi.o Debug/main.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group
+     1>Done Building Project "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24

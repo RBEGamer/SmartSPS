@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{9715ff7b-5344-4b2a-8353-ff5289126321}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{b870e91b-498b-446b-b2c2-dfa112203c9b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{a1feb6e8-76f6-4251-a565-80197e1c25c2}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{ce3a2637-bbdb-4041-8bb8-927a3f4e8249}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base_node.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="node_nbdi.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="base_nbdo.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base_node.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="node_nbdi.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="main_node_include.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="node_nbdo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TEXTCONFIG.txt" />
+  </ItemGroup>
+</Project>
