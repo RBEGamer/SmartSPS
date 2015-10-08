@@ -35,7 +35,7 @@ error:
 	$(error Invalid configuration, please check your inputs)
 endif
 
-SOURCEFILES := base_nbdo.cpp base_node.cpp node_nbdi.cpp main.cpp
+SOURCEFILES := base_nbdo.cpp base_node.cpp connector.cpp node_nbdi.cpp main.cpp
 EXTERNAL_LIBS := 
 EXTERNAL_LIBS_COPIED := $(foreach lib, $(EXTERNAL_LIBS),$(BINARYDIR)/$(notdir $(lib)))
 

@@ -1,16 +1,19 @@
-﻿Build started 08.10.2015 21:43:02.
-     1>Project "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" on node 2 (Build target(s)).
+﻿Build started 09.10.2015 00:38:07.
+     1>Project "C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit\shit.vcxproj" on node 2 (Build target(s)).
      1>Build:
-         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" "/solution:C:\Users\Marcel\Desktop\shit\shit.sln" "/config:Debug" "/platform:Win32"
-         VisualGDB: Sending 1 updated source file to build machine...
-         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/c/Users/Marcel/Desktop/shit/shit" on root@192.168.178.58 (SSH)
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\\VisualGDB.exe" /build "C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit\shit.vcxproj" "/solution:C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit.sln" "/config:Debug" "/platform:Win32"
+         VisualGDB: Sending 4 updated source files to build machine...
+         VisualGDB: Run "make CONFIG=Debug" in directory "/tmp/VisualGDB/c/Users/Marcel/Documents/GitHub/SmartSPS/shit/shit" on root@192.168.178.58 (SSH)
+         g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c base_nbdo.cpp -o Debug/base_nbdo.o -MD -MF Debug/base_nbdo.dep
+         g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c connector.cpp -o Debug/connector.o -MD -MF Debug/connector.dep
+         g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c node_nbdi.cpp -o Debug/node_nbdi.o -MD -MF Debug/node_nbdi.dep
          g++ -ggdb -ffunction-sections -O0   -DDEBUG  -c main.cpp -o Debug/main.o -MD -MF Debug/main.dep
          main.cpp: In function 'int main(int, char**)':
-     1>C:\Users\Marcel\Desktop\shit\shit\main.cpp(19,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
-     1>C:\Users\Marcel\Desktop\shit\shit\main.cpp(20,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
-         g++ -o Debug/shit -Wl,-gc-sections   -L/usr/lib -L/usr/local/lib -Wl,--start-group Debug/base_nbdo.o Debug/base_node.o Debug/node_nbdi.o Debug/main.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group
-     1>Done Building Project "C:\Users\Marcel\Desktop\shit\shit\shit.vcxproj" (Build target(s)).
+     1>C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit\main.cpp(27,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+     1>C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit\main.cpp(28,48): warning : deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         g++ -o Debug/shit -Wl,-gc-sections   -L/usr/lib -L/usr/local/lib -Wl,--start-group Debug/base_nbdo.o Debug/base_node.o Debug/connector.o Debug/node_nbdi.o Debug/main.o   -Wl,--rpath='$ORIGIN'   -Wl,--end-group
+     1>Done Building Project "C:\Users\Marcel\Documents\GitHub\SmartSPS\shit\shit\shit.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.24
+Time Elapsed 00:00:02.92

@@ -9,14 +9,14 @@ int main(int argc, char *argv[])
 	bool break_update_cycle = true; //if false the programm exits
 	
 	//NID		NSI		CON			PARAM
-	//	1		NBDI	1:0 : 2 : 0		GPIO1 %
-	//	2		NBDO				GPIO2%
+	//	1		NBDI	1:0:2:0		GPIO1 %
+	//	2		NBDO					GPIO2%
 
 
 	//	globaler trenner %
 	//	trenner zwischen einträgen :
 
-
+	
 
 	//CREATE NODE BUFFER ARRAY
 	base_node* nodes_buffer[2];
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 
 		for (int i = 0; i < 2; i++)
 		{
-			if (nodes_buffer[i]->enabled && node_buffer[i]->nid >= 0) {
+			if (nodes_buffer[i]->enabled && nodes_buffer[i]->nid >= 0) {
 				nodes_buffer[i]->update(delta_time);
 			}
 		}

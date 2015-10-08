@@ -19,5 +19,7 @@ void node_nbdo::init()
 
 void node_nbdo::load_node_parameters(char params[])
 {
+	//WIRTE SPLIT FUNKTION TO ADD PARAMETERS TO FUNKTION
 }
 
+//

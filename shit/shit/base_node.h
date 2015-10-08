@@ -11,6 +11,13 @@ public:
 	bool updated_values;
 	int nid;
 	virtual void load_node_parameters(char params[]);
+
+
+
+
+
+
+
 private:
 
 };

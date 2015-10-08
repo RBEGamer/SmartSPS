@@ -65,6 +65,7 @@
   <ItemGroup>
     <ClCompile Include="base_nbdo.cpp" />
     <ClCompile Include="base_node.cpp" />
+    <ClCompile Include="connector.cpp" />
     <ClCompile Include="node_nbdi.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_node.h" />
+    <ClInclude Include="connector.h" />
     <ClInclude Include="main_node_include.h" />
     <ClInclude Include="node_nbdi.h" />
     <ClInclude Include="node_nbdo.h" />
