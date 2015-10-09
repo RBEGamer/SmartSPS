@@ -13,25 +13,22 @@ void node_nbdi::update(float timestep)
 {
 
 
+	//hier serial query abfragen um zu schauen ob der port geupdated wurde
+
+
 	if (node_nbdi::updated_values) {
-		node_nbdi::updated_values = false;
-		//logic machen
 
-		if (node_nbdi::value_input_state) {
-			//SEND TO SERIAL SEND QUARRY -> PORT HIGH
-			
-		}
-		else {
-			//SEND TO SERIAL SEND QUARRY -> PORT LOW
-		}
-
-		//hier sonst alle weitren node durchgehen
+	
+		//ALLE ANDEREN NODES AUF UPDATED setzten via connection class
 	}
+
+
+	
 }
 
 void node_nbdi::init()
 {
-	node_nbdi::value_input_state = false;
+	node_nbdi::value_output_state = false;
 }
 
 void node_nbdi::load_node_parameters(char params[])

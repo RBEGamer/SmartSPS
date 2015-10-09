@@ -68,6 +68,7 @@
     <ClCompile Include="connector.cpp" />
     <ClCompile Include="node_nbdi.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="node_nbdo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="debug.mak" />

@@ -11,6 +11,19 @@ node_nbdo::~node_nbdo()
 
 void node_nbdo::update(float timestep)
 {
+	if (node_nbdo::updated_values) {
+		node_nbdo::updated_values = false;
+		//logic machen
+
+		if (node_nbdo::value_input_state) {
+			//SEND TO SERIAL SEND QUARRY -> PORT HIGH
+		}
+		else {
+			//SEND TO SERIAL SEND QUARRY -> PORT LOW
+		}
+
+		//hier sonst alle weitren node durchgehen
+	}
 }
 
 void node_nbdo::init()

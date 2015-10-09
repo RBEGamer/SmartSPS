@@ -13,9 +13,9 @@ public:
 
 
 	//PARAMETERS
-	std::string gpio_addr; // param 0
+//	std::string gpio_addr; // param 0
 	//VALUES
-	bool value_input_state; //pos 0
+	bool value_output_state; //pos 0
 
 
 
