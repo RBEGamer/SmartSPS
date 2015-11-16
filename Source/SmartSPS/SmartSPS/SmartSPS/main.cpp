@@ -19,210 +19,174 @@
 // 47 /
 // 32 space
 
-//namespace xml_parser {
-//	//struct to store a key value pair
-//	struct xml_kvp
-//	{
-//		std::string key;
-//		std::string value;
-//	};
-//	//get the versionstring of the start of the xml file
-//	std::string get_xml_version(std::string xml_input) {
-//		std::string final_xml_version_string = "";
-//		const char *xml_version_string_begin = strstr(xml_input.c_str(), "<?xml ");
-//		if (xml_version_string_begin != 0) { //if
-//			xml_version_string_begin += 6; //remove the "<?xml "
-//			const char *xml_version_string_end = strstr(xml_version_string_begin, "?>");
-//			if (xml_version_string_end != 0) {
-//				std::string xml_version_string_content = "";
-//				xml_version_string_content.append(xml_version_string_begin, xml_version_string_end); //result: version='1.0'
-//				const char *xml_version_content_verion_start = strstr(xml_version_string_content.c_str(), "version=");
-//				if (xml_version_content_verion_start != 0) {
-//					xml_version_content_verion_start += 9; //remove version='
-//					const char *xml_content_version_end = strstr(xml_version_content_verion_start, "'");
-//					if (xml_content_version_end != 0) {
-//						final_xml_version_string.append(xml_version_content_verion_start, xml_content_version_end);
-//					}
-//				}
-//			}
-//		}
-//		return final_xml_version_string;
-//	}
-//	//gets the content of the root node a root node is defined by <name></name>
-//	std::string get_xml_root_node_content(std::string xml_input, std::string node_name) {
-//		std::string schematic_content = "";
-//		const std::string nnbegin = "<" + node_name + ">";
-//		const std::string nnend = "</" + node_name + ">";
-//		const char* schematic_content_start = strstr(xml_input.c_str(), nnbegin.c_str());
-//		if (schematic_content_start != 0) {
-//			schematic_content_start += nnbegin.size(); //remove the <schematic>
-//			const char* schematic_content_end = strstr(schematic_content_start, nnend.c_str());
-//			if (schematic_content_end != 0) {
-//				schematic_content.append(schematic_content_start, schematic_content_end);
-//			}
-//		}
-//		return schematic_content;
-//	}
-//	//gets the content of all nodes with the spcified name you can process the result (xmlkvp with the callback function
-//	void get_element_content(std::string xml_input, std::string node_name, void(*callback_func)(xml_kvp*, int)) {
-//		std::string element_name = "<" + node_name; //create the complete  element start name without space (" ")!!
-//		//count the  "<nodename " to alloc the result string array
-//		const char* xml_element_start_count = strstr(xml_input.c_str(), element_name.c_str());
-//		int array_size = 0;
-//		while (true) {
-//			xml_element_start_count = strstr(xml_element_start_count, element_name.c_str());
-//			if (xml_element_start_count != 0) {
-//				xml_element_start_count += element_name.size();
-//				array_size++;
-//			}else {
-//				break;
-//			}
-//		}
-//
-//		if (array_size > 0) {
-//		//	const int f_array_size = const_cast<const int&>(array_size);
-//			std::string *xml_elements_content = 0;
-//			xml_elements_content = new std::string[array_size];
-//			
-//			int array_pop_counter = 0; //counter for correct array asign
-//			if (xml_input.size() > 0) {
-//				const char* xml_element_start = strstr(xml_input.c_str(), element_name.c_str());
-//				while (true) {
-//					xml_element_start = strstr(xml_element_start, element_name.c_str());
-//					if (xml_element_start != 0) {
-//						xml_element_start += element_name.size(); //remove the <node
-//						const char* xml_element_end = strstr(xml_element_start, "/>");
-//						if (xml_element_end != 0) {
-//							xml_elements_content[array_pop_counter] = "";
-//							std::string xml_element_content = "";
-//							xml_element_content.append(xml_element_start, xml_element_end);
-//							xml_elements_content[array_pop_counter] = xml_element_content;
-//							xml_element_start = xml_element_end + 2; 
-//							array_pop_counter++;
-//						}
-//						else { break; }
-//					}
-//					else { break; }
-//				}
-//			}
-//
-//
-//
-//
-//
-//			//PARSE THE RESULTARRAY and call the callback function
-//			for (size_t i = 0; i <array_size; i++)
-//			{
-//				const char* xml_element_start_count = strstr(xml_elements_content[i].c_str(), "'='");
-//				//count the amount of kv pairs in the element to instanziate the resultarray
-//				int array_size = 0;
-//				while (true) {
-//					xml_element_start_count = strstr(xml_element_start_count, "'='"); //count every "'='"
-//					if (xml_element_start_count != 0) {
-//						xml_element_start_count += element_name.size();
-//						array_size++;
-//					}else {
-//						break;
-//					}
-//				}
-//				
-//				if (array_size > 0) {
-//					//TODO:DEBUG IT
-//					const int* t = &array_size;
-//					xml_kvp werr[2];
-//					xml_kvp* lauf = werr;
-//
-//					const char* xml_element_key_start = strstr(xml_elements_content[i].c_str(), " ");
-//					while (true) {
-//						if (xml_element_key_start != 0) {
-//							xml_element_key_start += 1; //remove the " "
-//							const char* xml_element_key_end = strstr(xml_element_key_start, "=");
-//							if (xml_element_key_end != 0) {
-//								std::string xml_element_key = "";
-//								xml_element_key.append(xml_element_key_start, xml_element_key_end);
-//								xml_element_key_end += 2; //to remove the ='
-//								const char* xml_element_value_end = strstr(xml_element_key_end, "'");
-//								if (xml_element_value_end != 0) {
-//									std::string xml_element_value = "";
-//									xml_element_value.append(xml_element_key_end, xml_element_value_end); //store only the text between the two pointers in the resultstring
-//									lauf->value = xml_element_value; //store the element value in the resultarray
-//									lauf->key = xml_element_key;//store the element key int the resultarray
-//									xml_element_key_start = xml_element_value_end; // set the content startpointer to the next element start position
-//									lauf++; //increase the result pointer to add the next kv elements on the right position
-//								}
-//								else { break; }
-//							}
-//							else { break; }
-//						}
-//						else { break; }
-//					}
-//					callback_func(lauf, array_size); //CALL THE CALLBACKFUNCTION
-//					delete lauf; //delete array pointer
-//				}
-//			}
-//		delete []xml_elements_content; //delete array
-//	}//ende if arraysize > 0
-//}
-//	//get the key value pairs of the result from the get_element_content_function
-//	void get_element_attributes(std::string xml_input, void(*_callback_func)(xml_kvp)) {
-//		const char* xml_element_key_start = strstr(xml_input.c_str(), " ");
-//		while (true) {
-//			if (xml_element_key_start != 0) {
-//				xml_element_key_start += 1; //remove the " "
-//				const char* xml_element_key_end = strstr(xml_element_key_start, "=");
-//				if (xml_element_key_end != 0) {
-//					std::string xml_element_key = "";
-//					xml_element_key.append(xml_element_key_start, xml_element_key_end);
-//					xml_element_key_end += 2; //to remove the ='
-//					const char* xml_element_value_end = strstr(xml_element_key_end, "'");
-//					if (xml_element_value_end != 0) {
-//						std::string xml_element_value = "";
-//						xml_element_value.append(xml_element_key_end, xml_element_value_end);
-//						xml_kvp wmlxml;
-//						wmlxml.value = xml_element_value;
-//						wmlxml.key = xml_element_key;
-//						_callback_func(wmlxml); //CALL THE CALLBACKFUNCTION
-//						xml_element_key_start = xml_element_value_end;
-//					}
-//					else { break; }
-//				}
-//				else { break; }
-//			}
-//			else { break; }
-//		}
-//	}
-//	//basic string replace function
-//	void replaceAll(std::string& str, const std::string& from, const std::string& to) {
-//		if (from.empty())
-//			return;
-//		size_t start_pos = 0;
-//		while ((start_pos = str.find(from, start_pos)) != std::string::npos) {
-//			str.replace(start_pos, from.length(), to);
-//			start_pos += to.length(); // In case 'to' contains 'from', like replacing 'x' with 'yx'
-//		}
-//	}
-//	//prepare the xml input : replace some charakters,
-//	void prepare_xml_input(std::string& xml_input) {
-//		replaceAll(xml_input, std::string(char(39), sizeof(char)), std::string(char(34), sizeof(char))); //replace " with '
-//		replaceAll(xml_input, "' = '", "'='");
-//		replaceAll(xml_input, " = ", "=");
-//		replaceAll(xml_input, "> <", "><");
-//	}
-//	//in this function you can process your xml results you can define an other function with the functionpointer-parameter in the get_element_content or get_element attribute
-//	void process_xml_nodes(xml_parser::xml_kvp *kvp, int element_count) {
-//	//in the kvp pointer are the key values pairs stored there are readed from a node element
-//	//the size of the pointer array is stored in the element_count array
-//	}
-//
-//}
-//
-//
-//void process_xml_nodes(xml_parser::xml_kvp *kvp, int element_count) {
-//
-//	
-//
-//
-//}
+base_node** nodes_buffer;
+
+
+namespace xml_parser {
+
+	int node_counter = 0;
+
+	//CHECK PASSED---------------------------------------------------------
+	//get the versionstring of the start of the xml file
+	std::string get_xml_version(const std::string xml_input) {
+		std::string final_xml_version_string = "";
+		const char *xml_version_string_begin = strstr(xml_input.c_str(), "<?xml ");
+		if (xml_version_string_begin != 0) { //if
+			xml_version_string_begin += 6; //remove the "<?xml "
+			const char *xml_version_string_end = strstr(xml_version_string_begin, "?>");
+			if (xml_version_string_end != 0) {
+				std::string xml_version_string_content = "";
+				xml_version_string_content.append(xml_version_string_begin, xml_version_string_end); //result: version='1.0'
+				const char *xml_version_content_verion_start = strstr(xml_version_string_content.c_str(), "version=");
+				if (xml_version_content_verion_start != 0) {
+					xml_version_content_verion_start += 9; //remove version='
+					const char *xml_content_version_end = strstr(xml_version_content_verion_start, "\"");
+					if (xml_content_version_end != 0) {
+						final_xml_version_string.append(xml_version_content_verion_start, xml_content_version_end);
+					}
+				}
+			}
+		}
+		return final_xml_version_string;
+	}
+	//CHECK PASSED---------------------------------------------------------
+
+
+
+	//CHECK PASSED---------------------------------------------------------
+	//gets the content of the root node a root node is defined by <name></name>
+	std::string get_xml_root_node_content(const std::string xml_input, const std::string node_name) {
+		std::string schematic_content = "";
+		const std::string nnbegin = "<" + node_name + ">";
+		const std::string nnend = "</" + node_name + ">";
+		const char* schematic_content_start = strstr(xml_input.c_str(), nnbegin.c_str());
+		if (schematic_content_start != 0) {
+			schematic_content_start += nnbegin.size(); //remove the <schematic>
+			const char* schematic_content_end = strstr(schematic_content_start, nnend.c_str());
+			if (schematic_content_end != 0) {
+				schematic_content.append(schematic_content_start, schematic_content_end);
+			}
+		}
+		return schematic_content;
+	}
+	//CHECK PASSED---------------------------------------------------------
+
+
+
+	//CHECK PASSED---------------------------------------------------------
+	//gets the content of all nodes with the spcified name you can process the result (xmlkvp with the callback function
+	void get_element_content(const std::string xml_input, const std::string node_name, void(*callback_func)(std::string*, int)) {
+		std::string element_name = "<" + node_name; //create the complete  element start name without space (" ")!!
+													//count the  "<nodename " to alloc the result string array
+		const char* xml_element_start_count = strstr(xml_input.c_str(), element_name.c_str());
+		int array_size = 0;
+		while (true) {
+			xml_element_start_count = strstr(xml_element_start_count, element_name.c_str());
+			if (xml_element_start_count != 0) {
+				xml_element_start_count += element_name.size();
+				array_size++;
+			}
+			else {
+				break;
+			}
+		}
+
+		if (array_size > 0) {
+			node_counter = array_size;
+			//	const int f_array_size = const_cast<const int&>(array_size);
+			std::string* xml_elements_content = 0;
+			xml_elements_content = new std::string[array_size];
+			int array_pop_counter = 0; //counter for correct array asign
+			if (xml_input.size() > 0) {
+				const char* xml_element_start = strstr(xml_input.c_str(), element_name.c_str());
+				while (true) {
+					xml_element_start = strstr(xml_element_start, element_name.c_str());
+					if (xml_element_start != 0) {
+						xml_element_start += element_name.size(); //remove the <node
+						const char* xml_element_end = strstr(xml_element_start, "/>");
+						if (xml_element_end != 0) {
+							xml_elements_content[array_pop_counter] = "";
+							std::string xml_element_content = "";
+							xml_element_content.append(xml_element_start, xml_element_end);
+							xml_elements_content[array_pop_counter] = xml_element_content;
+							callback_func(xml_elements_content, array_pop_counter);
+							xml_element_start = xml_element_end + 2;
+							array_pop_counter++;
+						}
+						else { break; }
+					}
+					else { break; }
+				}
+			}
+			delete[]xml_elements_content; //delete array
+		}//ende if arraysize > 0
+	}
+	//CHECK PASSED---------------------------------------------------------
+
+
+
+	//CHECK PASSED---------------------------------------------------------
+	//basic string replace function
+	void replaceAll(std::string& str, const std::string& from, const std::string& to) {
+		if (from.empty())
+			return;
+		size_t start_pos = 0;
+		while ((start_pos = str.find(from, start_pos)) != std::string::npos) {
+			str.replace(start_pos, from.length(), to);
+			start_pos += to.length(); // In case 'to' contains 'from', like replacing 'x' with 'yx'
+		}
+	}
+	//CHECK PASSED---------------------------------------------------------
+
+
+
+	//CHECK PASSED---------------------------------------------------------
+	//prepare the xml input : replace some charakters,
+	void prepare_xml_input(std::string& xml_input) {
+		replaceAll(xml_input, std::string(char(39), sizeof(char)), std::string(char(34), sizeof(char))); //replace " with '
+		replaceAll(xml_input, "\" = \"", "\"=\"");
+		replaceAll(xml_input, " = ", "=");
+		replaceAll(xml_input, "> <", "><");
+	}
+	//in this function you can process your xml results you can define an other function with the functionpointer-parameter in the get_element_content or get_element attribute
+	//CHECK PASSED---------------------------------------------------------
+
+
+
+	//CHECK PASSED---------------------------------------------------------
+	//get the key value pairs of the result from the get_element_content_function
+	std::string get_element_attributes(const std::string xml_input, const std::string element_name) {
+		const char* xml_element_key_start = strstr(xml_input.c_str(), element_name.c_str());
+		std::string result_string = "";
+		if (xml_element_key_start != 0)
+		{
+			xml_element_key_start += element_name.size() + 2; //to remove the emelement name + the ="
+			if (xml_element_key_start != 0)
+			{
+				const char* xml_element_key_end = strstr(xml_element_key_start, "\"");
+				if (xml_element_key_end != 0)
+				{
+					result_string.append(xml_element_key_start, xml_element_key_end);
+					return result_string;
+				}
+				else {
+					return "";
+				}
+			}
+			else
+			{
+				return "";
+			}
+		}
+		else {
+			return "";
+		}
+		return "";
+	}
+	//CHECK PASSED---------------------------------------------------------
+
+}
+
 
 
 //INIT STATIC VARIABLES
@@ -368,6 +332,54 @@ std::stringstream ss;
 
 
 
+
+void process_xml_nodes(std::string*  kvp, int element_count) {
+	std::cout << "XML NODE CONTENT: " << kvp[element_count].c_str() << std::endl;
+
+	int nid = -1;
+	std::string  nsi = -1;
+	std::string nparam = "";
+
+
+	std::string result = "";
+	result = xml_parser::get_element_attributes(kvp[element_count], "nid");
+	if (result == "") { return; }
+	nid = atoi(result);
+
+
+	result = "";
+	result = xml_parser::get_element_attributes(kvp[element_count], "nsi");
+	if (result == "") { return; }
+	nsi = result;
+
+
+	result = "";
+	result = xml_parser::get_element_attributes(kvp[element_count], "ncon");
+	if (result == "") { return; }
+	connection_string += result;
+
+
+	result = "";
+	result = xml_parser::get_element_attributes(kvp[element_count], "nparam");
+	if (result == "") { return; }
+	nparam = reuslt;
+
+
+	//CHECK IF ALL DATA VALID
+	switch (nsi)
+	{
+	case "nbdi":
+		nodes_buffer[0] = new node_nbdi(nid, true, count_connections(connection_string, nid), nparam, false);  //INOPUT
+		break;
+	default:
+		return;
+		break;
+	}
+}
+
+
+
+
 int main(int argc, char *argv[])
 {
 
@@ -391,27 +403,64 @@ int main(int argc, char *argv[])
 	
 	usleep(300);
 	serial_management::add_to_send_queue("0_bndmx_4_50\n");
-	
+
+
+	xml_parser::node_counter = 0;
+	std::string connection_string = "";
+
+
+
+
+	//XML BIS NODES PARSEN
+	std::string xml_input_string = "<?xml version=\"1.0\"?><schematic><node nid=\"1\" npos=\"-19.79573,11.62813\" nsi=\"NBDI\" ncon=\"1:0:2:0%\" nparam=\"GPIO1%\" /><node nid=\"2\" npos=\"-2.739578,2.544342\" nsi=\"NBDO\" ncon=\"\" nparam=\"GPIO2%\" /></schematic>";
+	if (xml_input_string == "") { return 1; }
+	std::cout << "XML RAW INPUT : " << xml_input_string.c_str() << std::endl;
+
+
+	xml_parser::prepare_xml_input(xml_input_string);
+	std::cout << "XML PREPARED INPUT : " << xml_input_string.c_str() << std::endl;
+
+
+	std::string xml_version_string = "";
+	xml_version_string = xml_parser::get_xml_version(xml_input_string);
+	if (xml_version_string == "") { return 2; }
+	std::cout << "XML VERSION : " << xml_version_string.c_str() << std::endl;
+
+
+	std::string xml_root_node_content_string = "";
+	xml_root_node_content_string = xml_parser::get_xml_root_node_content(xml_input_string, "schematic");
+	if (xml_root_node_content_string == "") { return 3; }
+	std::cout << "XML ROOT(SCHEMATIC) NODE CONTENT : " << xml_root_node_content_string.c_str() << std::endl;
+
+
+
+
+
+
 	//NEEDED KNOWN SHIT
-	std::string connection_string = "1:0:2:0%2:1:3:0%4:0:5:0%";
+
 	int node_amount =5;
 
 	//CREATE DYNAMIC BASENODE ARRAY TO HOLD THE SCHEMATIC
-	base_node** nodes_buffer = new base_node*[node_amount];
+	nodes_buffer = new base_node*[xml_parser::node_counter];
+
+	//FINAL XML PROCESSING
+	xml_parser::get_element_content(xml_root_node_content_string, "node", process_xml_nodes);
+
+
 	//CREATE NODE INSTANCES WITH THE SPCIFIC ID
 	//<- <NID> <user_serial_recieve> <count of connections> <params> <is_static_value>
-
-	nodes_buffer[0] = new node_nbdi(1, true, count_connections(connection_string,1), "14%eqri%1%", false);  //INOPUT
-	nodes_buffer[1] = new node_opwemare(2, false, count_connections(connection_string, 2), "25d86d23507280aa2bc0ce79d269ebb8%2925533%sunset%", false);  //INOPUT
-	nodes_buffer[2] = new node_nbsttoi(3, false, count_connections(connection_string, 3), "", false);
-
-	nodes_buffer[3] = new node_ctimest(4, false, count_connections(connection_string, 4), "", false);
+	//nodes_buffer[0] = new node_nbdi(1, true, count_connections(connection_string,1), "14%eqri%1%", false);  //INOPUT
+	//nodes_buffer[1] = new node_opwemare(2, false, count_connections(connection_string, 2), "25d86d23507280aa2bc0ce79d269ebb8%2925533%sunset%", false);  //INOPUT
+	//nodes_buffer[2] = new node_nbsttoi(3, false, count_connections(connection_string, 3), "", false);
+	//nodes_buffer[3] = new node_ctimest(4, false, count_connections(connection_string, 4), "", false);
 	//nodes_buffer[9] = new node_phhlux(7, false, count_connections(connection_string, 7), "192.168.178.38%9ee891920b34397369b895d195d4a9b%2%", false); //PHILIPS HUE LUX
-	nodes_buffer[4] = new node_tstoint(5, false, count_connections(connection_string, 5), "", false);
-
+	//nodes_buffer[4] = new node_tstoint(5, false, count_connections(connection_string, 5), "", false);
 	//nodes_buffer[10] = new node_opwemare(11, false, count_connections(connection_string, 11), "25d86d23507280aa2bc0ce79d269ebb8%2925533%sunset%", false);
 
 	//MAKE CONNECTION TO INSTANCES
+
+
 	make_connections(nodes_buffer, node_amount, connection_string); //CREATE CONNECTIONS FOR THE INPUTNODE
 	//ENABLE ALL NODES
 	for (size_t i = 0; i < node_amount; i++){
