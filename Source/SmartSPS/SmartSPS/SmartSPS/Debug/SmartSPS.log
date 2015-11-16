@@ -1,0 +1,18 @@
+﻿Build started 16.11.2015 12:02:42.
+     1>Project "C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj" "/solution:C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS.sln" "/config:Debug" "/platform:Win32"
+     1>VisualGDB : warning : Cannot parse C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj
+         Inline build failed - ReadFile failed, win32 error code 109. Doing a normal build...
+     1>VisualGDB : warning : Cannot parse C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj
+         SSH: Looking up host...
+         SSH: Connecting...
+         SSH: Error
+     1>EXEC : Connection error : Ein Verbindungsversuch ist fehlgeschlagen, da die Gegenstelle nach einer bestimmten Zeitspanne nicht richtig reagiert hat, oder die hergestellte Verbindung war fehlerhaft, da der verbundene Host nicht reagiert hat 91.2.93.3:22
+         Build/launch failed: Cannot establish an SSH connection
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(37,5): error MSB3073: The command ""C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj" "/solution:C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS.sln" "/config:Debug" "/platform:Win32"" exited with code 1.
+     1>Done Building Project "C:\Users\Marcel.Ochsendorf\Desktop\SmartSPS\SmartSPS\SmartSPS\SmartSPS.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:42.58
